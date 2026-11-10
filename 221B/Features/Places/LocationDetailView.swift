@@ -32,6 +32,8 @@ struct LocationDetailView: View {
             .padding()
         }
         .navigationTitle(location.name)
+        #if !os(macOS)
         .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
 }

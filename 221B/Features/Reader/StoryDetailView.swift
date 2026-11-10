@@ -16,7 +16,7 @@ struct StoryDetailView: View {
                         .fontWeight(.bold)
 
                     HStack {
-                        Text("From: \(story.collection.title)")
+                        Text(story.collection.map { "From: \($0.title)" } ?? "Novel")
                         Spacer()
                         Text("\(story.publicationYear)")
                             .foregroundColor(.secondary)
@@ -39,6 +39,13 @@ struct StoryDetailView: View {
                     }
                     .padding()
                 }
+
+                NavigationLink {
+                    StoryReaderView(story: story)
+                } label: {
+                    Label("Read Original Text", systemImage: "book")
+                }
+                .buttonStyle(.borderedProminent)
 
                 Section(header: Text("Characters")) {
                     if let charactersInStory = charactersInStory(story: story) {
@@ -63,7 +70,9 @@ struct StoryDetailView: View {
             .padding()
         }
         .navigationTitle(story.title)
+        #if !os(macOS)
         .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
 
     private func charactersInStory(story: Story) -> [Character]? {

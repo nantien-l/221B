@@ -21,9 +21,11 @@ struct My221BView: View {
             }
             .modifier(StoryDestinations())
             .navigationTitle("My 221B")
+            #if !os(macOS)
             .navigationBarTitleDisplayMode(.large)
+            #endif
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItem(placement: .primaryAction) {
                     Menu {
                         Button("All") {
                             appState.showFavoritesOnly = false

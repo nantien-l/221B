@@ -17,9 +17,11 @@ struct LibraryView: View {
             }
             .modifier(StoryDestinations())
             .navigationTitle("Library")
+            #if !os(macOS)
             .navigationBarTitleDisplayMode(.large)
+            #endif
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItem(placement: .primaryAction) {
                     Menu {
                         Button("Collections") {
                             appState.readingMode = .collections

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "novel-001",
+        "title": "A Study in Scarlet",
+        "type": "novel",
+        "publicationYear": 1887,
+        "collectionId": "collection-001",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. A Study in Scarlet. 1887."
+    },
+    {
+        "id": "novel-002",
+        "title": "The Sign of the Four",
+        "type": "novel",
+        "publicationYear": 1888,
+        "collectionId": "collection-002",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. The Sign of the Four. 1888."
+    },
+    {
+        "id": "novel-003",
+        "title": "The Hound of the Baskervilles",
+        "type": "novel",
+        "publicationYear": 1902,
+        "collectionId": "collection-003",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. The Hound of the Baskervilles. 1902."
+    },
+    {
+        "id": "novel-004",
+        "title": "The Valley of Fear",
+        "type": "novel",
+        "publicationYear": 1915,
+        "collectionId": "collection-004",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. The Valley of Fear. 1915."
+    }
+]

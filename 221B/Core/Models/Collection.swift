@@ -4,12 +4,15 @@ import Foundation
 
 @Observable
 class Collection: Identifiable, Hashable {
-    let id = UUID()
+    let id: String
     let title: String
     let year: Int
+    let bookOrder: Int
     var stories: [Story]
 
-    init(title: String, year: Int, stories: [Story]) {
+    init(id: String, title: String, year: Int, bookOrder: Int, stories: [Story]) {
+        self.id = id
+        self.bookOrder = bookOrder
         self.title = title
         self.year = year
         self.stories = stories

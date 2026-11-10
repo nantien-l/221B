@@ -12,24 +12,33 @@ class DataManager {
     var storyLocations: [StoryLocation] = []
     var chronologyEntries: [ChronologyEntry] = []
 
-    func loadSampleData() {
-        let data = JSONDataRepository.shared.loadSampleData()
-        collections = data.collections
-        stories = data.stories
-        characters = data.characters
-        locations = data.locations
-        appearances = data.appearances
-        storyLocations = data.storyLocations
-        chronologyEntries = data.chronologyEntries
+    var novels: [Story] = []
+    var loadError: String?
+    private var hasLoaded = false
 
-        // Update relationships
-        for character in characters {
-            character.appearances = appearances.filter { $0.character.id == character.id }
-        }
-
-        for location in locations {
-            location.storyLocations = storyLocations.filter { $0.location.id == location.id }
+    func loadData() {
+        guard !hasLoaded else { return }
+        do {
+            let bibliography = try JSONDataRepository.shared.loadBibliography()
+            let legacy = try JSONDataRepository.shared.loadLegacyEntities(stories: bibliography.stories)
+            collections = bibliography.collections
+            novels = bibliography.novels
+            stories = bibliography.stories
+            characters = legacy.characters
+            locations = legacy.locations
+            appearances = legacy.appearances
+            storyLocations = legacy.storyLocations
+            chronologyEntries = stories.map { ChronologyEntry(story: $0, proposedDate: nil, source: "", notes: "") }
+            for character in characters {
+                character.appearances = appearances.filter { $0.character.id == character.id }
+            }
+            for location in locations {
+                location.storyLocations = storyLocations.filter { $0.location.id == location.id }
+            }
+            hasLoaded = true
+            loadError = nil
+        } catch {
+            loadError = error.localizedDescription
         }
     }
 }
-

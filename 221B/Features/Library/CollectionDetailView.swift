@@ -31,6 +31,8 @@ struct CollectionDetailView: View {
             .padding()
         }
         .navigationTitle(collection.title)
+        #if !os(macOS)
         .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
 }

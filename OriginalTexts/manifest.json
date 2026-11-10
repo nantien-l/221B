@@ -1,0 +1,542 @@
+[
+  {
+    "id": "a-case-of-identity",
+    "title": "A Case of Identity",
+    "file": "works/a-case-of-identity.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 6980,
+    "sha256": "283665e807481ae6c65becb0f862fdf65da30b52f491a978582f464aa68989f7"
+  },
+  {
+    "id": "a-scandal-in-bohemia",
+    "title": "A Scandal in Bohemia",
+    "file": "works/a-scandal-in-bohemia.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 8526,
+    "sha256": "f2b0c68076a19bac92257a3be42be067dd6b4cfdf2dd044fee200a1fa08ccaaa"
+  },
+  {
+    "id": "a-study-in-scarlet",
+    "title": "A Study in Scarlet",
+    "file": "works/a-study-in-scarlet.txt",
+    "source": "https://www.gutenberg.org/ebooks/244",
+    "sourceFile": "sources/244.txt",
+    "words": 43427,
+    "sha256": "2d5d1e7d0803807d688a77e847ac2c07319a0a03f2bbc8077257dd928ffd4bc5"
+  },
+  {
+    "id": "his-last-bow",
+    "title": "His Last Bow",
+    "file": "works/his-last-bow.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 6057,
+    "sha256": "253f570c7a3588ec14e4895eac34c052c96c9b2bd699b179b8ff85e2680e84ea"
+  },
+  {
+    "id": "silver-blaze",
+    "title": "Silver Blaze",
+    "file": "works/silver-blaze.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 9574,
+    "sha256": "4759d01794048f042020800dfac64214763bed70b5b5d93f4b5e312a153473db"
+  },
+  {
+    "id": "the-adventure-of-black-peter",
+    "title": "The Adventure of Black Peter",
+    "file": "works/the-adventure-of-black-peter.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 8102,
+    "sha256": "c3f02daaaf5c1889c924a8d89d7633fe0b0731bf07e36ff2e36a695a760660ed"
+  },
+  {
+    "id": "the-adventure-of-charles-augustus-milverton",
+    "title": "The Adventure of Charles Augustus Milverton",
+    "file": "works/the-adventure-of-charles-augustus-milverton.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 6704,
+    "sha256": "fd68c124a16367e847707638c7fee76391a05141adb5dc38d0e9835b24d0993d"
+  },
+  {
+    "id": "the-adventure-of-shoscombe-old-place",
+    "title": "The Adventure of Shoscombe Old Place",
+    "file": "works/the-adventure-of-shoscombe-old-place.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 6239,
+    "sha256": "f6dc8868c74093803910a667283051b4840b58ec10d0825f006180e98cf7a769"
+  },
+  {
+    "id": "the-adventure-of-the-abbey-grange",
+    "title": "The Adventure of the Abbey Grange",
+    "file": "works/the-adventure-of-the-abbey-grange.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 9131,
+    "sha256": "8204c76b0bd08488fd3fdddcba1e2f0198ec38f9c8e2d2a5c9538816379eaae3"
+  },
+  {
+    "id": "the-adventure-of-the-beryl-coronet",
+    "title": "The Adventure of the Beryl Coronet",
+    "file": "works/the-adventure-of-the-beryl-coronet.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 9686,
+    "sha256": "afb05a7da123d2dac1c4aa7b17780bd82859a62ab8830a9fb06adbc2e04b9c40"
+  },
+  {
+    "id": "the-adventure-of-the-blanched-soldier",
+    "title": "The Adventure of the Blanched Soldier",
+    "file": "works/the-adventure-of-the-blanched-soldier.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 7711,
+    "sha256": "94b7ab0ea6a150b0a91344731f11b3513738f94f6f9ceaf8ea48c3c3ff9f413f"
+  },
+  {
+    "id": "the-adventure-of-the-blue-carbuncle",
+    "title": "The Adventure of the Blue Carbuncle",
+    "file": "works/the-adventure-of-the-blue-carbuncle.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 7815,
+    "sha256": "2f6c804a95e6e491d8b3bc8dbd96d49aaa5f2fde9804b6d6f975fc0bfaaeaf7f"
+  },
+  {
+    "id": "the-adventure-of-the-bruce-partington-plans",
+    "title": "The Adventure of the Bruce-Partington Plans",
+    "file": "works/the-adventure-of-the-bruce-partington-plans.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 10667,
+    "sha256": "7c542eefbbfb23c549c77da2037c5d9dc956e83ea03fe5c675b9d6374cf64de5"
+  },
+  {
+    "id": "the-adventure-of-the-cardboard-box",
+    "title": "The Adventure of the Cardboard Box",
+    "file": "works/the-adventure-of-the-cardboard-box.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 8687,
+    "sha256": "1ef76cc7b5a5acb7dcf4352473a6aafab0f802ca4319f84482172166008de063"
+  },
+  {
+    "id": "the-adventure-of-the-copper-beeches",
+    "title": "The Adventure of the Copper Beeches",
+    "file": "works/the-adventure-of-the-copper-beeches.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 9951,
+    "sha256": "c1bd0d8efdeb2d8ea0b0c0c70107afadd907ed34973a36435e79030788f02497"
+  },
+  {
+    "id": "the-adventure-of-the-creeping-man",
+    "title": "The Adventure of the Creeping Man",
+    "file": "works/the-adventure-of-the-creeping-man.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 7650,
+    "sha256": "a3833cdc0ce713d493450514cd1e8dbd26857627f36c61df4a4ebc058d4c4f91"
+  },
+  {
+    "id": "the-adventure-of-the-dancing-men",
+    "title": "The Adventure of the Dancing Men",
+    "file": "works/the-adventure-of-the-dancing-men.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 9630,
+    "sha256": "2d0078c18eafea3e80fb782ea9675bebe44e7cefa75aff853d7223e43ba2ed1a"
+  },
+  {
+    "id": "the-adventure-of-the-devil-s-foot",
+    "title": "The Adventure of the Devil's Foot",
+    "file": "works/the-adventure-of-the-devil-s-foot.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 9975,
+    "sha256": "00843ca3809df50f0c327107a92433bca09b923e2ecd54186c1ba54aed5a27b3"
+  },
+  {
+    "id": "the-adventure-of-the-dying-detective",
+    "title": "The Adventure of the Dying Detective",
+    "file": "works/the-adventure-of-the-dying-detective.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 5775,
+    "sha256": "f96482e541d503bf6cf8edb7d719ec4a54ce9b9a7300739a9e3715c121bc74b8"
+  },
+  {
+    "id": "the-adventure-of-the-empty-house",
+    "title": "The Adventure of the Empty House",
+    "file": "works/the-adventure-of-the-empty-house.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 8688,
+    "sha256": "2fb63dbc8e70ba56532f67b3832da309976c0c03a5461f9353505bc6049f619b"
+  },
+  {
+    "id": "the-adventure-of-the-engineer-s-thumb",
+    "title": "The Adventure of the Engineer's Thumb",
+    "file": "works/the-adventure-of-the-engineer-s-thumb.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 8290,
+    "sha256": "8bb47a0dcc7827b1f8a6139fd65d4e1239f20be4c8e73a491c20e99a1a0aff21"
+  },
+  {
+    "id": "the-adventure-of-the-golden-pince-nez",
+    "title": "The Adventure of the Golden Pince-Nez",
+    "file": "works/the-adventure-of-the-golden-pince-nez.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 8914,
+    "sha256": "a23e4221f4e677ffc3d6da027e20bb2209d2d8c77de4ffc3a157daaedba1f647"
+  },
+  {
+    "id": "the-adventure-of-the-illustrious-client",
+    "title": "The Adventure of the Illustrious Client",
+    "file": "works/the-adventure-of-the-illustrious-client.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 9751,
+    "sha256": "759193bca2a539b0b5b7ece290df759c1f48d6124238979f810fcdb24dfc2102"
+  },
+  {
+    "id": "the-adventure-of-the-lion-s-mane",
+    "title": "The Adventure of the Lion's Mane",
+    "file": "works/the-adventure-of-the-lion-s-mane.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 7175,
+    "sha256": "fb44b5a47f164f191e427971acd6d355b4a1b113b70f36705dfb7695d45cd975"
+  },
+  {
+    "id": "the-adventure-of-the-mazarin-stone",
+    "title": "The Adventure of the Mazarin Stone",
+    "file": "works/the-adventure-of-the-mazarin-stone.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 5640,
+    "sha256": "cc4e94bf4723c1b915f8423e27bb94c631cce5e9f731df16ed8dd3e9cce4d5ee"
+  },
+  {
+    "id": "the-adventure-of-the-missing-three-quarter",
+    "title": "The Adventure of the Missing Three-Quarter",
+    "file": "works/the-adventure-of-the-missing-three-quarter.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 7977,
+    "sha256": "a399af63594dc3ba93efc4a3cb72bd773b608ad523bd9c2c86feb13ee9dd4cbc"
+  },
+  {
+    "id": "the-adventure-of-the-noble-bachelor",
+    "title": "The Adventure of the Noble Bachelor",
+    "file": "works/the-adventure-of-the-noble-bachelor.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 8109,
+    "sha256": "5ff2ed1a3a48c7f3c40be1b25e1b4de9cea2085522711b7f9ef9b5812d775e8d"
+  },
+  {
+    "id": "the-adventure-of-the-norwood-builder",
+    "title": "The Adventure of the Norwood Builder",
+    "file": "works/the-adventure-of-the-norwood-builder.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 9213,
+    "sha256": "3b196fd3f552877c7db94092296771f587dd1673ff4661870a9ceb9d857320f7"
+  },
+  {
+    "id": "the-adventure-of-the-priory-school",
+    "title": "The Adventure of the Priory School",
+    "file": "works/the-adventure-of-the-priory-school.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 11445,
+    "sha256": "e4ecb5ba25f3e1cfbff6ac3919141c05748e5bf42be235ef118a9b3f8a67f140"
+  },
+  {
+    "id": "the-adventure-of-the-red-circle",
+    "title": "The Adventure of the Red Circle",
+    "file": "works/the-adventure-of-the-red-circle.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 7287,
+    "sha256": "c1cf8c92e4da3ed8091756409b7f803a0f15ad2e429ecf7d1e5e03c4062130bc"
+  },
+  {
+    "id": "the-adventure-of-the-retired-colourman",
+    "title": "The Adventure of the Retired Colourman",
+    "file": "works/the-adventure-of-the-retired-colourman.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 5501,
+    "sha256": "e8cae8165c3872311bcb789fa8b9609dacf65b27f67d873991680848e995e5c2"
+  },
+  {
+    "id": "the-adventure-of-the-second-stain",
+    "title": "The Adventure of the Second Stain",
+    "file": "works/the-adventure-of-the-second-stain.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 9625,
+    "sha256": "30f7dfa2f24d2dd2c9419c96959b87b2de75dd8aedfad4ac3d2d1dc36176f1c6"
+  },
+  {
+    "id": "the-adventure-of-the-six-napoleons",
+    "title": "The Adventure of the Six Napoleons",
+    "file": "works/the-adventure-of-the-six-napoleons.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 8318,
+    "sha256": "cd5958e92bc86502ecd36e1583c613d8541be6511daaf3efdef0422fdf570553"
+  },
+  {
+    "id": "the-adventure-of-the-solitary-cyclist",
+    "title": "The Adventure of the Solitary Cyclist",
+    "file": "works/the-adventure-of-the-solitary-cyclist.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 7826,
+    "sha256": "868488d2a30d9006bd00668d5ecd8e57a84aeff9dca923671992ce645c17730c"
+  },
+  {
+    "id": "the-adventure-of-the-speckled-band",
+    "title": "The Adventure of the Speckled Band",
+    "file": "works/the-adventure-of-the-speckled-band.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 9812,
+    "sha256": "93c6334e3c52347bb431f226ad3a82095df07af385adbd6a423003469952ead9"
+  },
+  {
+    "id": "the-adventure-of-the-sussex-vampire",
+    "title": "The Adventure of the Sussex Vampire",
+    "file": "works/the-adventure-of-the-sussex-vampire.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 5961,
+    "sha256": "e9dd36332216606fe1347bce26ddd9c0c25d02e15c0ec755a63abb027d11bf58"
+  },
+  {
+    "id": "the-adventure-of-the-three-gables",
+    "title": "The Adventure of the Three Gables",
+    "file": "works/the-adventure-of-the-three-gables.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 6049,
+    "sha256": "ee1b6239e6ac3797de4ada916dcbdab9620789f382c5e01ce9d21836bb481f58"
+  },
+  {
+    "id": "the-adventure-of-the-three-garridebs",
+    "title": "The Adventure of the Three Garridebs",
+    "file": "works/the-adventure-of-the-three-garridebs.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 6210,
+    "sha256": "5f8fbce8608255576e7e545b56c17de9301227e708ae72b6e7bb98bb95877aa2"
+  },
+  {
+    "id": "the-adventure-of-the-three-students",
+    "title": "The Adventure of the Three Students",
+    "file": "works/the-adventure-of-the-three-students.txt",
+    "source": "https://www.gutenberg.org/ebooks/108",
+    "sourceFile": "sources/108.txt",
+    "words": 6455,
+    "sha256": "c814ae0109c6c138e698d89016fd24b49a4a02dab8cb4401f5ef1127ed94632a"
+  },
+  {
+    "id": "the-adventure-of-the-veiled-lodger",
+    "title": "The Adventure of the Veiled Lodger",
+    "file": "works/the-adventure-of-the-veiled-lodger.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 4457,
+    "sha256": "0dc9b4f1c0b9778c5018a630a1b9c1fbce384aa11a4fdd9323ff690aa6331c1f"
+  },
+  {
+    "id": "the-adventure-of-wisteria-lodge",
+    "title": "The Adventure of Wisteria Lodge",
+    "file": "works/the-adventure-of-wisteria-lodge.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 11397,
+    "sha256": "ef350d09041a25515d6c0dfe3436ffd5a3e5dba13dced29c3c31754b85deb399"
+  },
+  {
+    "id": "the-boscombe-valley-mystery",
+    "title": "The Boscombe Valley Mystery",
+    "file": "works/the-boscombe-valley-mystery.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 9620,
+    "sha256": "4787168db92cb394f4c723ad6eab044813497a601310dfa1f5820be75544d975"
+  },
+  {
+    "id": "the-crooked-man",
+    "title": "The Crooked Man",
+    "file": "works/the-crooked-man.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 7118,
+    "sha256": "87645dc9cd6a2e390433003d15fd930d00cc944ab711a3b8a0e40e84ea94f4b1"
+  },
+  {
+    "id": "the-disappearance-of-lady-frances-carfax",
+    "title": "The Disappearance of Lady Frances Carfax",
+    "file": "works/the-disappearance-of-lady-frances-carfax.txt",
+    "source": "https://www.gutenberg.org/ebooks/2350",
+    "sourceFile": "sources/2350.txt",
+    "words": 7671,
+    "sha256": "202e5084215766d34be0dbefd7bfcd1551001f8da86f2920966297de3a58c356"
+  },
+  {
+    "id": "the-final-problem",
+    "title": "The Final Problem",
+    "file": "works/the-final-problem.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 7154,
+    "sha256": "dc5c124a19f8a10dd6a658893b293981cb87a18669fb321f8f9309a442e1ebe3"
+  },
+  {
+    "id": "the-five-orange-pips",
+    "title": "The Five Orange Pips",
+    "file": "works/the-five-orange-pips.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 7319,
+    "sha256": "943c2583f75d0e8a0276b8269e93118b372d506c279d81b2d8013e6e8254768c"
+  },
+  {
+    "id": "the-gloria-scott",
+    "title": "The Gloria Scott",
+    "file": "works/the-gloria-scott.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 7845,
+    "sha256": "8b1da9cc27abac7d5a2b4916c24a4215808a2dcc33aa058f8054225f0d007756"
+  },
+  {
+    "id": "the-greek-interpreter",
+    "title": "The Greek Interpreter",
+    "file": "works/the-greek-interpreter.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 6999,
+    "sha256": "11cbe7826cecfefb6e308a4785bb0edb9d62ce41cc68a2975b459ac4325043e7"
+  },
+  {
+    "id": "the-hound-of-the-baskervilles",
+    "title": "The Hound of the Baskervilles",
+    "file": "works/the-hound-of-the-baskervilles.txt",
+    "source": "https://www.gutenberg.org/ebooks/2852",
+    "sourceFile": "sources/2852.txt",
+    "words": 59260,
+    "sha256": "3c3e43511782f4be9a74587b2ffdc4d69fd6b982b572659375b6d41a4acb7f2b"
+  },
+  {
+    "id": "the-man-with-the-twisted-lip",
+    "title": "The Man with the Twisted Lip",
+    "file": "works/the-man-with-the-twisted-lip.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 9206,
+    "sha256": "34b90db722a316dba85993f7370b6d4a2c8aa1ccd16798a0cdba7b15565e9d74"
+  },
+  {
+    "id": "the-musgrave-ritual",
+    "title": "The Musgrave Ritual",
+    "file": "works/the-musgrave-ritual.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 7554,
+    "sha256": "c6c7dbe9d32ca5b78b6dc663b0b8a01540348076faa4f1d3cbb687dee5b56a13"
+  },
+  {
+    "id": "the-naval-treaty",
+    "title": "The Naval Treaty",
+    "file": "works/the-naval-treaty.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 12604,
+    "sha256": "d844b7b4c2a7debf5a53d1f6f0ed550db3c087983f63676c763769c3463123d5"
+  },
+  {
+    "id": "the-problem-of-thor-bridge",
+    "title": "The Problem of Thor Bridge",
+    "file": "works/the-problem-of-thor-bridge.txt",
+    "source": "https://www.gutenberg.org/ebooks/69700",
+    "sourceFile": "sources/69700.txt",
+    "words": 9575,
+    "sha256": "37a6ea81d7b7687cca938cc02c9aff4a64436255a8b8171ba33d4ed161df86b9"
+  },
+  {
+    "id": "the-red-headed-league",
+    "title": "The Red-Headed League",
+    "file": "works/the-red-headed-league.txt",
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "sourceFile": "sources/1661.txt",
+    "words": 9109,
+    "sha256": "faa944b146d5670f6b69955e77f6c7ffb2d1627b10e1c5b9c0b22550f011f5bc"
+  },
+  {
+    "id": "the-reigate-squires",
+    "title": "The Reigate Squires",
+    "file": "works/the-reigate-squires.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 7168,
+    "sha256": "f8d91abd562a5303c9409281cdedbd0a986b0860e99aaae496713b14d35fa25c"
+  },
+  {
+    "id": "the-resident-patient",
+    "title": "The Resident Patient",
+    "file": "works/the-resident-patient.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 6437,
+    "sha256": "f2f77420395cff0fb865030702e66360b4c9aa626913c49a5f1a61c05c379f8c"
+  },
+  {
+    "id": "the-sign-of-four",
+    "title": "The Sign of Four",
+    "file": "works/the-sign-of-four.txt",
+    "source": "https://www.gutenberg.org/ebooks/2097",
+    "sourceFile": "sources/2097.txt",
+    "words": 43095,
+    "sha256": "09a8c2656e5a3b477963c9f379330cc75927cfb92b20c2d2a4e18ce9ce33edae"
+  },
+  {
+    "id": "the-stockbroker-s-clerk",
+    "title": "The Stockbroker's Clerk",
+    "file": "works/the-stockbroker-s-clerk.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 6782,
+    "sha256": "e42fbf252cf2687a6608b3f2795c2b66944cee824bfdadd041fa6d831c6cb7f3"
+  },
+  {
+    "id": "the-valley-of-fear",
+    "title": "The Valley of Fear",
+    "file": "works/the-valley-of-fear.txt",
+    "source": "https://www.gutenberg.org/ebooks/3289",
+    "sourceFile": "sources/3289.txt",
+    "words": 57814,
+    "sha256": "3accca86445c8573aa4fb14eee77c4f23da88dc8f96e289548fdd49e3f5a7b13"
+  },
+  {
+    "id": "the-yellow-face",
+    "title": "The Yellow Face",
+    "file": "works/the-yellow-face.txt",
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "sourceFile": "sources/834.txt",
+    "words": 7503,
+    "sha256": "c5d04972ea07c94ad16b1664ac8be2b8aaca2e245116579c23c64289a4db2b30"
+  }
+]

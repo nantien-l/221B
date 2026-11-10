@@ -1,0 +1,506 @@
+[
+    {
+        "id": "story-001",
+        "title": "A Study in Scarlet",
+        "type": "short story",
+        "publicationYear": 1887,
+        "collectionId": "collection-001",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. A Study in Scarlet. 1887."
+    },
+    {
+        "id": "story-002",
+        "title": "The Cardboard Box",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-001",
+        "position": 2,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-003",
+        "title": "The Adventures of the Speckled Band",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-002",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-004",
+        "title": "The Yellow Face",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-002",
+        "position": 2,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-005",
+        "title": "The Man with the Twisted Lip",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-002",
+        "position": 3,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-006",
+        "title": "The Boscombe Valley Mystery",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-002",
+        "position": 4,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-007",
+        "title": "The Five Orange Pips",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-002",
+        "position": 5,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-008",
+        "title": "The Copper Beeches",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-002",
+        "position": 6,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-009",
+        "title": "The Red-Headed League",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-010",
+        "title": "A Wrong Lock",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 2,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-011",
+        "title": "The Adventure of the Dancing Men",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 3,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-012",
+        "title": "The Adventure of the Engineer's Thumb",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 4,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-013",
+        "title": "The Adventure of the Noble Bachelor",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 5,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-014",
+        "title": "The Adventure of the Beryl Coronet",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 6,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-015",
+        "title": "The Adventure of the Copper Beeches",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 7,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-016",
+        "title": "The Adventure of the Devil's Foot",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 8,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-017",
+        "title": "The Adventure of the Blanched Soldier",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 9,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-018",
+        "title": "The Adventure of the Reigate Priory",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 10,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-019",
+        "title": "The Adventure of the Crooked Man",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 11,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-020",
+        "title": "The Adventure of the Resident Patient",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 12,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-021",
+        "title": "The Adventure of the Lion's Mane",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 13,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-022",
+        "title": "The Adventure of the Mazarin Stone",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-023",
+        "title": "The Adventure of the Sussex Vampire",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 2,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-024",
+        "title": "The Adventure of the Illustrious Client",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 3,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-025",
+        "title": "The Adventure of the Christmas Murder",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 4,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-026",
+        "title": "The Adventure of the Priory School",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 5,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-027",
+        "title": "The Adventure of the Strange Client",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 6,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-028",
+        "title": "The Adventure of the Black Spaniel",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-004",
+        "position": 7,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "story-029",
+        "title": "His Last Bow",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 1,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-030",
+        "title": "The Adventure of the Dying Detective",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 2,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-031",
+        "title": "The Adventure of the Musgrave Ritual",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 3,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-032",
+        "title": "The Adventure of the Three Gables",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 4,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-034",
+        "title": "The Adventure of the Three Students",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 6,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-035",
+        "title": "The Adventure of the Empty House",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 7,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-036",
+        "title": "The Adventure of the Norwood Builder",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 8,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-037",
+        "title": "The Adventure of the Travelling Broad",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 9,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-038",
+        "title": "The Adventure of the Retired Colourman",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 10,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-039",
+        "title": "The Adventure of the Senior Wrangler",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 11,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-040",
+        "title": "The Adventure of the Speckled Band",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 12,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-057",
+        "title": "The Adventure of the Cardboard Box",
+        "type": "short story",
+        "publicationYear": 1893,
+        "collectionId": "collection-001",
+        "position": 3,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1893."
+    },
+    {
+        "id": "story-058",
+        "title": "The Adventure of the Red-Headed League",
+        "type": "short story",
+        "publicationYear": 1894,
+        "collectionId": "collection-003",
+        "position": 14,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "story-059",
+        "title": "The Adventure of the Speckled Band (2)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 13,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1892."
+    },
+    {
+        "id": "story-060",
+        "title": "The Adventure of the Dying Detective (2)",
+        "type": "short story",
+        "publicationYear": 1917,
+        "collectionId": "collection-005",
+        "position": 15,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    },
+    {
+        "id": "story-061",
+        "title": "The Adventure of the Musgrave Ritual (2)",
+        "type": "short story",
+        "publicationYear": 1893,
+        "collectionId": "collection-005",
+        "position": 16,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1893."
+    },
+    {
+        "id": "story-062",
+        "title": "The Adventure of the Three Gables (2)",
+        "type": "short story",
+        "publicationYear": 1904,
+        "collectionId": "collection-005",
+        "position": 17,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1904."
+    },
+    {
+        "id": "story-063",
+        "title": "The Adventure of the Three Students (2)",
+        "type": "short story",
+        "publicationYear": 1893,
+        "collectionId": "collection-005",
+        "position": 18,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1893."
+    },
+    {
+        "id": "story-064",
+        "title": "The Adventure of the Empty House (2)",
+        "type": "short story",
+        "publicationYear": 1902,
+        "collectionId": "collection-005",
+        "position": 19,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1902."
+    },
+    {
+        "id": "story-065",
+        "title": "The Adventure of the Norwood Builder (2)",
+        "type": "short story",
+        "publicationYear": 1903,
+        "collectionId": "collection-005",
+        "position": 20,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1903."
+    },
+    {
+        "id": "story-069",
+        "title": "The Adventure of the Three Gables (3)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 24,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1892."
+    },
+    {
+        "id": "story-070",
+        "title": "The Adventure of the Sussex Vampire (3)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 25,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1892."
+    },
+    {
+        "id": "story-071",
+        "title": "The Adventure of the Three Students (3)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 26,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1892."
+    },
+    {
+        "id": "story-072",
+        "title": "The Adventure of the Empty House (3)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 27,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1892."
+    },
+    {
+        "id": "story-073",
+        "title": "The Adventure of the Norwood Builder (3)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-005",
+        "position": 28,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1892."
+    },
+    {
+        "id": "story-077",
+        "title": "The Adventure of the Crooked Man (2)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 15,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-078",
+        "title": "The Adventure of the Resident Patient (2)",
+        "type": "short story",
+        "publicationYear": 1892,
+        "collectionId": "collection-003",
+        "position": 16,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "story-079",
+        "title": "The Adventure of the Lion's Mane (2)",
+        "type": "short story",
+        "publicationYear": 1894,
+        "collectionId": "collection-003",
+        "position": 17,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    }
+]

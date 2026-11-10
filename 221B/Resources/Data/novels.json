@@ -1,0 +1,56 @@
+[
+  {
+    "id": "a-study-in-scarlet",
+    "title": "A Study in Scarlet",
+    "titleVariants": [],
+    "type": "novel",
+    "firstUKPublicationYear": 1887,
+    "publicationYear": 1887,
+    "bookOrder": 1,
+    "sources": [
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf",
+      "https://thessmayday.org.uk/stories/introducing-the-canon/"
+    ]
+  },
+  {
+    "id": "the-sign-of-four",
+    "title": "The Sign of Four",
+    "titleVariants": [
+      "The Sign of the Four"
+    ],
+    "type": "novel",
+    "firstUKPublicationYear": 1890,
+    "publicationYear": 1890,
+    "bookOrder": 2,
+    "sources": [
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf",
+      "https://thessmayday.org.uk/stories/introducing-the-canon/"
+    ]
+  },
+  {
+    "id": "the-hound-of-the-baskervilles",
+    "title": "The Hound of the Baskervilles",
+    "titleVariants": [],
+    "type": "novel",
+    "firstUKPublicationYear": 1901,
+    "publicationYear": 1902,
+    "bookOrder": 5,
+    "sources": [
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf",
+      "https://thessmayday.org.uk/stories/introducing-the-canon/"
+    ]
+  },
+  {
+    "id": "the-valley-of-fear",
+    "title": "The Valley of Fear",
+    "titleVariants": [],
+    "type": "novel",
+    "firstUKPublicationYear": 1914,
+    "publicationYear": 1915,
+    "bookOrder": 7,
+    "sources": [
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf",
+      "https://thessmayday.org.uk/stories/introducing-the-canon/"
+    ]
+  }
+]

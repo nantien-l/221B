@@ -10,7 +10,7 @@ struct StoryRowView: View {
             VStack(alignment: .leading) {
                 Text(story.title)
                     .font(.headline)
-                Text("\(story.collection.title) • \(story.publicationYear)")
+                Text("\(story.collection?.title ?? "Novel") • \(story.publicationYear)")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }

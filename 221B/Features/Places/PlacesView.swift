@@ -14,7 +14,9 @@ struct PlacesView: View {
             }
             .modifier(StoryDestinations())
             .navigationTitle("Places")
+            #if !os(macOS)
             .navigationBarTitleDisplayMode(.large)
+            #endif
         }
     }
 }

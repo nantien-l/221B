@@ -42,6 +42,8 @@ struct CharacterDetailView: View {
             .padding()
         }
         .navigationTitle(character.name)
+        #if !os(macOS)
         .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
 }

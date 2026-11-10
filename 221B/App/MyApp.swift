@@ -13,7 +13,7 @@ struct MyApp: App {
                 .environment(appState)
                 .environment(dataManager)
                 .onAppear {
-                    if dataManager.collections.isEmpty { dataManager.loadSampleData() }
+                    dataManager.loadData()
                 }
         }
     }

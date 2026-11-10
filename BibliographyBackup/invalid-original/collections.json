@@ -1,0 +1,42 @@
+[
+    {
+        "id": "collection-001",
+        "title": "A Study in Scarlet",
+        "type": "collection",
+        "publicationYear": 1887,
+        "storyCount": 12,
+        "source": "Conan Doyle, Arthur. A Study in Scarlet. 1887."
+    },
+    {
+        "id": "collection-002",
+        "title": "The Adventures of Sherlock Holmes",
+        "type": "collection",
+        "publicationYear": 1892,
+        "storyCount": 11,
+        "source": "Conan Doyle, Arthur. The Adventures of Sherlock Holmes. 1892."
+    },
+    {
+        "id": "collection-003",
+        "title": "The Memoirs of Sherlock Holmes",
+        "type": "collection",
+        "publicationYear": 1894,
+        "storyCount": 13,
+        "source": "Conan Doyle, Arthur. The Memoirs of Sherlock Holmes. 1894."
+    },
+    {
+        "id": "collection-004",
+        "title": "The Return of Sherlock Holmes",
+        "type": "collection",
+        "publicationYear": 1905,
+        "storyCount": 8,
+        "source": "Conan Doyle, Arthur. The Return of Sherlock Holmes. 1905."
+    },
+    {
+        "id": "collection-005",
+        "title": "His Last Bow",
+        "type": "collection",
+        "publicationYear": 1917,
+        "storyCount": 12,
+        "source": "Conan Doyle, Arthur. His Last Bow. 1917."
+    }
+]

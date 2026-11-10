@@ -14,7 +14,9 @@ struct CasesView: View {
             }
             .modifier(StoryDestinations())
             .navigationTitle("Cases")
+            #if !os(macOS)
             .navigationBarTitleDisplayMode(.large)
+            #endif
         }
     }
 }

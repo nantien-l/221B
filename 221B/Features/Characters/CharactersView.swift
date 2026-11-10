@@ -34,7 +34,9 @@ struct CharactersView: View {
             }
             .modifier(StoryDestinations())
             .navigationTitle("Characters")
+            #if !os(macOS)
             .navigationBarTitleDisplayMode(.large)
+            #endif
         }
     }
 }

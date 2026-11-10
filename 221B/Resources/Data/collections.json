@@ -1,0 +1,57 @@
+[
+  {
+    "id": "adventures",
+    "title": "The Adventures of Sherlock Holmes",
+    "publicationYear": 1892,
+    "bookOrder": 3,
+    "storyCount": 12,
+    "sources": [
+      "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm",
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf"
+    ]
+  },
+  {
+    "id": "memoirs",
+    "title": "The Memoirs of Sherlock Holmes",
+    "publicationYear": 1894,
+    "bookOrder": 4,
+    "storyCount": 11,
+    "sources": [
+      "https://www.gutenberg.org/files/834/834-h/834-h.htm",
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf"
+    ]
+  },
+  {
+    "id": "return",
+    "title": "The Return of Sherlock Holmes",
+    "publicationYear": 1905,
+    "bookOrder": 6,
+    "storyCount": 13,
+    "sources": [
+      "https://www.gutenberg.org/files/108/108-h/108-h.htm",
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf"
+    ]
+  },
+  {
+    "id": "last-bow",
+    "title": "His Last Bow",
+    "publicationYear": 1917,
+    "bookOrder": 8,
+    "storyCount": 8,
+    "sources": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/His_Last_Bow_%281917_NY%29.pdf",
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf"
+    ]
+  },
+  {
+    "id": "case-book",
+    "title": "The Case-Book of Sherlock Holmes",
+    "publicationYear": 1927,
+    "bookOrder": 9,
+    "storyCount": 12,
+    "sources": [
+      "https://www.gutenberg.org/files/69700/69700-h/69700-h.htm",
+      "https://static.lib.umn.edu/pdf/holmes/inv.pdf"
+    ]
+  }
+]
