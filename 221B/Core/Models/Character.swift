@@ -4,7 +4,7 @@ import Foundation
 
 @Observable
 class Character: Identifiable, Hashable {
-    let id = UUID()
+    let id: String
     let name: String
     let aliases: [String]
     let category: CharacterCategory
@@ -12,7 +12,8 @@ class Character: Identifiable, Hashable {
     var isFavorite: Bool = false
     var appearances: [Appearance] = []
 
-    init(name: String, aliases: [String], category: CharacterCategory, biography: String) {
+    init(id: String = UUID().uuidString, name: String, aliases: [String], category: CharacterCategory, biography: String) {
+        self.id = id
         self.name = name
         self.aliases = aliases
         self.category = category

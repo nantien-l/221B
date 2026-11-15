@@ -11,13 +11,13 @@ struct AppearanceRowView: View {
                 Text(appearance.story.title)
                     .font(.headline)
                 Spacer()
-                Text(appearance.role.rawValue)
+                Text(appearance.role?.rawValue.capitalized ?? "")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
 
             HStack {
-                Text(appearance.isMention ? "Mention" : "Full Appearance")
+                Text(appearance.isMention.map { $0 ? "Mention" : "Full Appearance" } ?? "Listed in story")
                     .font(.caption)
                     .foregroundColor(.secondary)
                 if appearance.role == .protagonist {

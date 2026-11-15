@@ -1,0 +1,1079 @@
+{
+  "source": "https://shdb.guidesite.co.uk/characters/characters-list",
+  "note": "Selected characters and story associations from The Sherlock Holmes Database. The source is not a complete index. Appearance type and role are not specified.",
+  "characters": [
+    {
+      "id": "shdb-22",
+      "name": "Irene Adler",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-scandal-in-bohemia"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=22"
+    },
+    {
+      "id": "shdb-83",
+      "name": "Josiah Amberley",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-retired-colourman"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=83"
+    },
+    {
+      "id": "shdb-30",
+      "name": "Hosmer Angel",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-case-of-identity"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=30"
+    },
+    {
+      "id": "shdb-42",
+      "name": "Henry Baker",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-blue-carbuncle"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=42"
+    },
+    {
+      "id": "shdb-67",
+      "name": "Henry Baskerville",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-hound-of-the-baskervilles"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=67"
+    },
+    {
+      "id": "shdb-40",
+      "name": "Hugh Boone",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=40"
+    },
+    {
+      "id": "shdb-41",
+      "name": "Bradstreet",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=41"
+    },
+    {
+      "id": "shdb-60",
+      "name": "Richard Brunton",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-musgrave-ritual"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=60"
+    },
+    {
+      "id": "shdb-73",
+      "name": "Peter Carey",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-black-peter"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=73"
+    },
+    {
+      "id": "shdb-80",
+      "name": "Frances Carfax",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-disappearance-of-lady-frances-carfax"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=80"
+    },
+    {
+      "id": "shdb-10",
+      "name": "Arthur Charpentier",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=10"
+    },
+    {
+      "id": "shdb-25",
+      "name": "John Clay",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-red-headed-league"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=25"
+    },
+    {
+      "id": "shdb-71",
+      "name": "Hilton Cubitt",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-dancing-men"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=71"
+    },
+    {
+      "id": "shdb-56",
+      "name": "Susan Cushing",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-cardboard-box"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=56"
+    },
+    {
+      "id": "shdb-50",
+      "name": "Hatty Doran",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-noble-bachelor"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=50"
+    },
+    {
+      "id": "shdb-6",
+      "name": "Enoch Drebber",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=6"
+    },
+    {
+      "id": "shdb-12",
+      "name": "John Ferrier",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=12"
+    },
+    {
+      "id": "shdb-13",
+      "name": "Lucy Ferrier",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=13"
+    },
+    {
+      "id": "shdb-81",
+      "name": "John Garrideb",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-three-garridebs"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=81"
+    },
+    {
+      "id": "shdb-57",
+      "name": "Jack Grant Munro",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-yellow-face"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=57"
+    },
+    {
+      "id": "shdb-55",
+      "name": "Gregory",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "silver-blaze"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=55"
+    },
+    {
+      "id": "shdb-5",
+      "name": "Tobias Gregson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-greek-interpreter",
+        "the-adventure-of-the-red-circle",
+        "the-adventure-of-wisteria-lodge",
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=5"
+    },
+    {
+      "id": "shdb-82",
+      "name": "Adelbert Gruber",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-illustrious-client"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=82"
+    },
+    {
+      "id": "shdb-47",
+      "name": "Victor Hatherley",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-engineer-s-thumb"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=47"
+    },
+    {
+      "id": "shdb-51",
+      "name": "Alexander Holder",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-beryl-coronet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=51"
+    },
+    {
+      "id": "shdb-52",
+      "name": "Arthur Holder",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-beryl-coronet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=52"
+    },
+    {
+      "id": "shdb-63",
+      "name": "Mycroft Holmes",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-bruce-partington-plans",
+        "the-adventure-of-the-empty-house",
+        "the-final-problem",
+        "the-greek-interpreter"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=63"
+    },
+    {
+      "id": "shdb-1",
+      "name": "Sherlock Holmes",
+      "aliases": [],
+      "category": "detective",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-black-peter",
+        "the-adventure-of-charles-augustus-milverton",
+        "the-adventure-of-shoscombe-old-place",
+        "the-gloria-scott",
+        "the-adventure-of-the-abbey-grange",
+        "the-adventure-of-the-beryl-coronet",
+        "the-adventure-of-the-blanched-soldier",
+        "the-adventure-of-the-blue-carbuncle",
+        "the-adventure-of-the-bruce-partington-plans",
+        "the-adventure-of-the-cardboard-box",
+        "the-adventure-of-the-copper-beeches",
+        "the-adventure-of-the-creeping-man",
+        "the-crooked-man",
+        "the-adventure-of-the-dancing-men",
+        "the-adventure-of-the-devil-s-foot",
+        "the-adventure-of-the-dying-detective",
+        "the-adventure-of-the-empty-house",
+        "the-final-problem",
+        "the-adventure-of-the-golden-pince-nez",
+        "the-greek-interpreter",
+        "the-adventure-of-the-illustrious-client",
+        "the-adventure-of-the-lion-s-mane",
+        "the-adventure-of-the-mazarin-stone",
+        "the-adventure-of-the-missing-three-quarter",
+        "the-musgrave-ritual",
+        "the-naval-treaty",
+        "the-adventure-of-the-noble-bachelor",
+        "the-adventure-of-the-norwood-builder",
+        "the-adventure-of-the-priory-school",
+        "the-adventure-of-the-red-circle",
+        "the-reigate-squires",
+        "the-resident-patient",
+        "the-adventure-of-the-retired-colourman",
+        "the-adventure-of-the-second-stain",
+        "the-adventure-of-the-six-napoleons",
+        "the-adventure-of-the-solitary-cyclist",
+        "the-adventure-of-the-speckled-band",
+        "the-stockbroker-s-clerk",
+        "the-adventure-of-the-sussex-vampire",
+        "the-adventure-of-the-three-gables",
+        "the-adventure-of-the-three-garridebs",
+        "the-adventure-of-the-three-students",
+        "the-adventure-of-the-veiled-lodger",
+        "the-yellow-face",
+        "the-adventure-of-wisteria-lodge",
+        "the-boscombe-valley-mystery",
+        "a-case-of-identity",
+        "the-disappearance-of-lady-frances-carfax",
+        "the-five-orange-pips",
+        "his-last-bow",
+        "the-hound-of-the-baskervilles",
+        "the-man-with-the-twisted-lip",
+        "the-problem-of-thor-bridge",
+        "the-red-headed-league",
+        "a-scandal-in-bohemia",
+        "the-sign-of-four",
+        "silver-blaze",
+        "a-study-in-scarlet",
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=1"
+    },
+    {
+      "id": "shdb-11",
+      "name": "Jefferson Hope",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=11"
+    },
+    {
+      "id": "shdb-74",
+      "name": "Stanley Hopkins",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-black-peter",
+        "the-adventure-of-the-abbey-grange",
+        "the-adventure-of-the-golden-pince-nez"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=74"
+    },
+    {
+      "id": "shdb-21",
+      "name": "Mrs. Hudson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-dying-detective",
+        "the-adventure-of-the-empty-house",
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=21"
+    },
+    {
+      "id": "shdb-53",
+      "name": "Violet Hunter",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-copper-beeches"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=53"
+    },
+    {
+      "id": "shdb-17",
+      "name": "Athelney Jones",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=17"
+    },
+    {
+      "id": "shdb-27",
+      "name": "Peter Jones",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-red-headed-league"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=27"
+    },
+    {
+      "id": "shdb-4",
+      "name": "Inspector Lestrade",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-charles-augustus-milverton",
+        "the-adventure-of-the-bruce-partington-plans",
+        "the-adventure-of-the-cardboard-box",
+        "the-adventure-of-the-empty-house",
+        "the-adventure-of-the-noble-bachelor",
+        "the-adventure-of-the-norwood-builder",
+        "the-adventure-of-the-second-stain",
+        "the-adventure-of-the-six-napoleons",
+        "the-boscombe-valley-mystery",
+        "the-hound-of-the-baskervilles",
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=4"
+    },
+    {
+      "id": "shdb-77",
+      "name": "Alec MacDonald",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=77"
+    },
+    {
+      "id": "shdb-33",
+      "name": "Charles McCarthy",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-boscombe-valley-mystery"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=33"
+    },
+    {
+      "id": "shdb-34",
+      "name": "James McCarthy",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-boscombe-valley-mystery"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=34"
+    },
+    {
+      "id": "shdb-78",
+      "name": "John McMurdo",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=78"
+    },
+    {
+      "id": "shdb-64",
+      "name": "Melas",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-greek-interpreter"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=64"
+    },
+    {
+      "id": "shdb-28",
+      "name": "Merryweather",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-red-headed-league"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=28"
+    },
+    {
+      "id": "shdb-75",
+      "name": "Charles Augustus Milverton",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-charles-augustus-milverton"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=75"
+    },
+    {
+      "id": "shdb-69",
+      "name": "Sebastian Moran",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-empty-house"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=69"
+    },
+    {
+      "id": "shdb-66",
+      "name": "Professor Moriarty",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-empty-house",
+        "the-final-problem",
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=66"
+    },
+    {
+      "id": "shdb-15",
+      "name": "Mary Morstan",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-man-with-the-twisted-lip",
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=15"
+    },
+    {
+      "id": "shdb-68",
+      "name": "James Mortimer",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-hound-of-the-baskervilles"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=68"
+    },
+    {
+      "id": "shdb-85",
+      "name": "Robert Norberton",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-shoscombe-old-place"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=85"
+    },
+    {
+      "id": "shdb-70",
+      "name": "Jonas Oldacre",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-norwood-builder"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=70"
+    },
+    {
+      "id": "shdb-36",
+      "name": "Elias Openshaw",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-five-orange-pips"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=36"
+    },
+    {
+      "id": "shdb-35",
+      "name": "John Openshaw",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-five-orange-pips"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=35"
+    },
+    {
+      "id": "shdb-43",
+      "name": "Peterson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-blue-carbuncle"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=43"
+    },
+    {
+      "id": "shdb-65",
+      "name": "Percy Phelps",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-naval-treaty"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=65"
+    },
+    {
+      "id": "shdb-58",
+      "name": "Hall Pycraft",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-stockbroker-s-clerk"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=58"
+    },
+    {
+      "id": "shdb-7",
+      "name": "John Rance",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=7"
+    },
+    {
+      "id": "shdb-84",
+      "name": "Eugenia Ronder",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-veiled-lodger"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=84"
+    },
+    {
+      "id": "shdb-26",
+      "name": "Duncan Ross",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-red-headed-league"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=26"
+    },
+    {
+      "id": "shdb-46",
+      "name": "Grimseby Roylott",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-speckled-band"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=46"
+    },
+    {
+      "id": "shdb-54",
+      "name": "Jephro Rucastle",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-copper-beeches"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=54"
+    },
+    {
+      "id": "shdb-44",
+      "name": "James Ryder",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-blue-carbuncle"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=44"
+    },
+    {
+      "id": "shdb-79",
+      "name": "John Scott Eccles",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-wisteria-lodge"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=79"
+    },
+    {
+      "id": "shdb-16",
+      "name": "Thaddeus Sholto",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=16"
+    },
+    {
+      "id": "shdb-61",
+      "name": "Simpson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-crooked-man"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=61"
+    },
+    {
+      "id": "shdb-19",
+      "name": "Jonathan Small",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=19"
+    },
+    {
+      "id": "shdb-72",
+      "name": "Violet Smith",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-solitary-cyclist"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=72"
+    },
+    {
+      "id": "shdb-76",
+      "name": "Hilton Soames",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-three-students"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=76"
+    },
+    {
+      "id": "shdb-39",
+      "name": "Neville St Clair",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=39"
+    },
+    {
+      "id": "shdb-49",
+      "name": "Robert St Simon",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-noble-bachelor"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=49"
+    },
+    {
+      "id": "shdb-3",
+      "name": "Stamford",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=3"
+    },
+    {
+      "id": "shdb-8",
+      "name": "Joseph Stangerson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=8"
+    },
+    {
+      "id": "shdb-48",
+      "name": "Lysander Stark",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-engineer-s-thumb"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=48"
+    },
+    {
+      "id": "shdb-45",
+      "name": "Helen Stoner",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-the-speckled-band"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=45"
+    },
+    {
+      "id": "shdb-29",
+      "name": "Mary Sutherland",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-case-of-identity"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=29"
+    },
+    {
+      "id": "shdb-18",
+      "name": "Toby",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=18"
+    },
+    {
+      "id": "shdb-20",
+      "name": "Tonga",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=20"
+    },
+    {
+      "id": "shdb-62",
+      "name": "Percy Trevelyan",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-resident-patient"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=62"
+    },
+    {
+      "id": "shdb-59",
+      "name": "Victor Trevor",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-gloria-scott"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=59"
+    },
+    {
+      "id": "shdb-32",
+      "name": "John Turner",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-boscombe-valley-mystery"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=32"
+    },
+    {
+      "id": "shdb-23",
+      "name": "Wilhelm Von Ormstein",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-scandal-in-bohemia"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=23"
+    },
+    {
+      "id": "shdb-2",
+      "name": "Dr. John Watson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-adventure-of-black-peter",
+        "the-adventure-of-charles-augustus-milverton",
+        "the-adventure-of-shoscombe-old-place",
+        "the-gloria-scott",
+        "the-adventure-of-the-abbey-grange",
+        "the-adventure-of-the-beryl-coronet",
+        "the-adventure-of-the-blue-carbuncle",
+        "the-adventure-of-the-bruce-partington-plans",
+        "the-adventure-of-the-cardboard-box",
+        "the-adventure-of-the-copper-beeches",
+        "the-adventure-of-the-creeping-man",
+        "the-crooked-man",
+        "the-adventure-of-the-dancing-men",
+        "the-adventure-of-the-devil-s-foot",
+        "the-adventure-of-the-dying-detective",
+        "the-adventure-of-the-empty-house",
+        "the-final-problem",
+        "the-adventure-of-the-golden-pince-nez",
+        "the-greek-interpreter",
+        "the-adventure-of-the-illustrious-client",
+        "the-adventure-of-the-mazarin-stone",
+        "the-adventure-of-the-missing-three-quarter",
+        "the-musgrave-ritual",
+        "the-naval-treaty",
+        "the-adventure-of-the-noble-bachelor",
+        "the-adventure-of-the-norwood-builder",
+        "the-adventure-of-the-priory-school",
+        "the-adventure-of-the-red-circle",
+        "the-reigate-squires",
+        "the-resident-patient",
+        "the-adventure-of-the-retired-colourman",
+        "the-adventure-of-the-second-stain",
+        "the-adventure-of-the-six-napoleons",
+        "the-adventure-of-the-solitary-cyclist",
+        "the-adventure-of-the-speckled-band",
+        "the-stockbroker-s-clerk",
+        "the-adventure-of-the-sussex-vampire",
+        "the-adventure-of-the-three-gables",
+        "the-adventure-of-the-three-garridebs",
+        "the-adventure-of-the-three-students",
+        "the-adventure-of-the-veiled-lodger",
+        "the-yellow-face",
+        "the-adventure-of-wisteria-lodge",
+        "the-boscombe-valley-mystery",
+        "a-case-of-identity",
+        "the-disappearance-of-lady-frances-carfax",
+        "the-five-orange-pips",
+        "his-last-bow",
+        "the-hound-of-the-baskervilles",
+        "the-man-with-the-twisted-lip",
+        "the-problem-of-thor-bridge",
+        "the-red-headed-league",
+        "a-scandal-in-bohemia",
+        "the-sign-of-four",
+        "silver-blaze",
+        "a-study-in-scarlet",
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=2"
+    },
+    {
+      "id": "shdb-38",
+      "name": "Isa Whitney",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=38"
+    },
+    {
+      "id": "shdb-37",
+      "name": "Kate Whitney",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=37"
+    },
+    {
+      "id": "shdb-9",
+      "name": "Wiggins",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-sign-of-four",
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=9"
+    },
+    {
+      "id": "shdb-24",
+      "name": "Jabez Wilson",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "the-red-headed-league"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=24"
+    },
+    {
+      "id": "shdb-31",
+      "name": "James Windibank",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-case-of-identity"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=31"
+    },
+    {
+      "id": "shdb-14",
+      "name": "Brigham Young",
+      "aliases": [],
+      "category": "other",
+      "biography": "",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/characters/characters-view?chid=14"
+    }
+  ]
+}

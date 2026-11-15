@@ -11,9 +11,11 @@ struct StoryLocationRowView: View {
                 Text(storyLocation.story.title)
                     .font(.headline)
                 Spacer()
-                Text(storyLocation.significance.rawValue)
-                    .font(.caption)
-                    .foregroundColor(significanceColor(storyLocation.significance))
+                if let significance = storyLocation.significance {
+                    Text(significance.rawValue)
+                        .font(.caption)
+                        .foregroundColor(significanceColor(significance))
+                }
             }
         }
         .padding(.vertical, 4)

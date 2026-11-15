@@ -22,14 +22,15 @@ class DataManager {
         guard !hasLoaded else { return }
         do {
             let bibliography = try JSONDataRepository.shared.loadBibliography()
-            let legacy = try JSONDataRepository.shared.loadLegacyEntities(stories: bibliography.stories)
             collections = bibliography.collections
             novels = bibliography.novels
             stories = bibliography.stories
-            characters = legacy.characters
-            locations = legacy.locations
-            appearances = legacy.appearances
-            storyLocations = legacy.storyLocations
+            let characterData = try CharacterRepository().load(stories: stories)
+            characters = characterData.characters
+            let locationData = try LocationRepository().load(stories: stories)
+            locations = locationData.locations
+            appearances = characterData.appearances
+            storyLocations = locationData.storyLocations
             do {
                 caseTimeline = try CaseTimelineRepository().load(stories: stories)
                 caseTimelineError = nil

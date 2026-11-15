@@ -7,9 +7,9 @@ class StoryLocation: Identifiable, Hashable {
     let id = UUID()
     let story: Story
     let location: Location
-    let significance: Significance
+    let significance: Significance?
 
-    init(story: Story, location: Location, significance: Significance) {
+    init(story: Story, location: Location, significance: Significance?) {
         self.story = story
         self.location = location
         self.significance = significance

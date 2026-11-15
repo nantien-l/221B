@@ -16,17 +16,28 @@ struct CollectionsView: View {
         if let error = dataManager.loadError {
             ContentUnavailableView("Unable to Load Library", systemImage: "exclamationmark.triangle", description: Text(error))
         } else {
-            List(books, id: \.order) { book in
-                if let novel = book.novel {
-                    NavigationLink(value: novel) { StoryRowView(story: novel) }
-                } else if let collection = book.collection {
-                    NavigationLink(value: collection) { CollectionRowView(collection: collection) }
+            ScrollView {
+                VStack(alignment: .leading, spacing: 22) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("THE CANONICAL LIBRARY").font(.system(.caption, design: .rounded, weight: .semibold)).tracking(1.5).foregroundStyle(colorScheme == .dark ? Color(red: 0.65, green: 0.73, blue: 0.57) : Color(red: 0.25, green: 0.37, blue: 0.28))
+                        Text("The collected works").font(.system(.title, design: .serif, weight: .semibold))
+                        Text("Four novels and five story collections, arranged by first book publication.").font(.subheadline).foregroundStyle(.secondary)
+                    }
+                    LazyVGrid(columns: [GridItem(.adaptive(minimum: 290), spacing: 16)], spacing: 16) {
+                        ForEach(books, id: \.order) { book in
+                            if let novel = book.novel {
+                                NavigationLink(value: novel) { StoryRowView(story: novel) }.buttonStyle(.plain)
+                            } else if let collection = book.collection {
+                                NavigationLink(value: collection) { CollectionRowView(collection: collection) }.buttonStyle(.plain)
+                            }
+                        }
+                    }
                 }
+                .padding(.horizontal, 24).padding(.top, 28).padding(.bottom, 72)
+                .frame(maxWidth: 900)
+                .frame(maxWidth: .infinity)
             }
-            .listRowBackground(BookColors.background(for: colorScheme))
-            .listStyle(.plain)
-            .scrollContentBackground(.hidden)
-            .background(BookColors.background(for: colorScheme))
+            .background(BookColors.background(for: colorScheme).ignoresSafeArea())
         }
     }
 }

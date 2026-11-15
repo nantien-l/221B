@@ -130,7 +130,6 @@ class JSONDataRepository {
         let appearance3 = Appearance(character: detective, story: story2, role: .protagonist, isMention: false)
         let appearance4 = Appearance(character: client1, story: story2, role: .protagonist, isMention: false)
         let appearance5 = Appearance(character: detective, story: story3, role: .protagonist, isMention: false)
-        let appearance6 = Appearance(character: criminal, story: story3, role: .antagonist, isMention: false)
         let appearance7 = Appearance(character: friend, story: story3, role: .supporting, isMention: false)
         let appearance8 = Appearance(character: family, story: story1, role: .supporting, isMention: false)
 
@@ -146,7 +145,7 @@ class JSONDataRepository {
         return (
             characters: [detective, client1, criminal, friend, family],
             locations: [london, bakerStreet, strand, countryHouse],
-            appearances: [appearance1, appearance2, appearance3, appearance4, appearance5, appearance6, appearance7, appearance8],
+            appearances: [appearance1, appearance2, appearance3, appearance4, appearance5, appearance7, appearance8],
             storyLocations: [storyLocation1, storyLocation2, storyLocation3, storyLocation4, storyLocation5, storyLocation6, storyLocation7]
         )
     }

@@ -7,10 +7,10 @@ class Appearance: Identifiable, Hashable {
     let id = UUID()
     let character: Character
     let story: Story
-    let role: Role
-    let isMention: Bool
+    let role: Role?
+    let isMention: Bool?
 
-    init(character: Character, story: Story, role: Role, isMention: Bool) {
+    init(character: Character, story: Story, role: Role?, isMention: Bool?) {
         self.character = character
         self.story = story
         self.role = role

@@ -4,13 +4,14 @@ import Foundation
 
 @Observable
 class Location: Identifiable, Hashable {
-    let id = UUID()
+    let id: String
     let name: String
     let description: String
     var isFavorite: Bool = false
     var storyLocations: [StoryLocation] = []
 
-    init(name: String, description: String) {
+    init(id: String = UUID().uuidString, name: String, description: String) {
+        self.id = id
         self.name = name
         self.description = description
     }

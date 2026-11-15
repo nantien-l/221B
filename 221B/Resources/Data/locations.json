@@ -1,0 +1,287 @@
+{
+  "source": "https://shdb.guidesite.co.uk/locations/locations-list",
+  "note": "Selected locations and associations from The Sherlock Holmes Database. The source is not an exhaustive index; associations do not assign importance.",
+  "locations": [
+    {
+      "id": "shdb-location-1",
+      "name": "221b Baker Street",
+      "description": "London",
+      "storyIds": [
+        "the-adventure-of-black-peter",
+        "the-adventure-of-charles-augustus-milverton",
+        "the-adventure-of-shoscombe-old-place",
+        "the-adventure-of-the-abbey-grange",
+        "the-adventure-of-the-beryl-coronet",
+        "the-adventure-of-the-blanched-soldier",
+        "the-adventure-of-the-blue-carbuncle",
+        "the-adventure-of-the-bruce-partington-plans",
+        "the-adventure-of-the-cardboard-box",
+        "the-adventure-of-the-copper-beeches",
+        "the-adventure-of-the-creeping-man",
+        "the-adventure-of-the-dancing-men",
+        "the-adventure-of-the-devil-s-foot",
+        "the-adventure-of-the-dying-detective",
+        "the-adventure-of-the-empty-house",
+        "the-adventure-of-the-golden-pince-nez",
+        "the-greek-interpreter",
+        "the-adventure-of-the-illustrious-client",
+        "the-adventure-of-the-mazarin-stone",
+        "the-adventure-of-the-missing-three-quarter",
+        "the-naval-treaty",
+        "the-adventure-of-the-noble-bachelor",
+        "the-adventure-of-the-norwood-builder",
+        "the-adventure-of-the-priory-school",
+        "the-adventure-of-the-red-circle",
+        "the-resident-patient",
+        "the-adventure-of-the-retired-colourman",
+        "the-adventure-of-the-second-stain",
+        "the-adventure-of-the-six-napoleons",
+        "the-adventure-of-the-solitary-cyclist",
+        "the-adventure-of-the-speckled-band",
+        "the-stockbroker-s-clerk",
+        "the-adventure-of-the-sussex-vampire",
+        "the-adventure-of-the-three-gables",
+        "the-adventure-of-the-three-garridebs",
+        "the-adventure-of-the-veiled-lodger",
+        "the-yellow-face",
+        "the-adventure-of-wisteria-lodge",
+        "a-case-of-identity",
+        "the-disappearance-of-lady-frances-carfax",
+        "the-five-orange-pips",
+        "the-hound-of-the-baskervilles",
+        "the-problem-of-thor-bridge",
+        "the-red-headed-league",
+        "a-scandal-in-bohemia",
+        "the-sign-of-four",
+        "a-study-in-scarlet",
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=1"
+    },
+    {
+      "id": "shdb-location-2",
+      "name": "3 Lauriston Gardens",
+      "description": "London",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=2"
+    },
+    {
+      "id": "shdb-location-25",
+      "name": "Abbas Parva",
+      "description": "Berkshire",
+      "storyIds": [
+        "the-adventure-of-the-veiled-lodger"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=25"
+    },
+    {
+      "id": "shdb-location-21",
+      "name": "Abbey Grange",
+      "description": "Marsham, Kent",
+      "storyIds": [
+        "the-adventure-of-the-abbey-grange"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=21"
+    },
+    {
+      "id": "shdb-location-19",
+      "name": "Baskerville Hall",
+      "description": "Dartmoor, Devon",
+      "storyIds": [
+        "the-hound-of-the-baskervilles"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=19"
+    },
+    {
+      "id": "shdb-location-22",
+      "name": "Birlstone House",
+      "description": "Birlstone, Sussex",
+      "storyIds": [
+        "the-valley-of-fear"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=22"
+    },
+    {
+      "id": "shdb-location-6",
+      "name": "Boscombe Valley",
+      "description": "Near Ross, Herefordshire",
+      "storyIds": [
+        "the-boscombe-valley-mystery"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=6"
+    },
+    {
+      "id": "shdb-location-5",
+      "name": "Briony Lodge",
+      "description": "London",
+      "storyIds": [
+        "a-scandal-in-bohemia"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=5"
+    },
+    {
+      "id": "shdb-location-16",
+      "name": "Cunningham estate",
+      "description": "Near Reigate, Surrey",
+      "storyIds": [
+        "the-reigate-squires"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=16"
+    },
+    {
+      "id": "shdb-location-14",
+      "name": "Donnithorpe",
+      "description": "Near Langmere, Norfolk",
+      "storyIds": [
+        "the-gloria-scott"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=14"
+    },
+    {
+      "id": "shdb-location-10",
+      "name": "Eyford",
+      "description": "Berkshire",
+      "storyIds": [
+        "the-adventure-of-the-engineer-s-thumb"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=10"
+    },
+    {
+      "id": "shdb-location-11",
+      "name": "Fairbank",
+      "description": "London",
+      "storyIds": [
+        "the-adventure-of-the-beryl-coronet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=11"
+    },
+    {
+      "id": "shdb-location-15",
+      "name": "Hurlstone Manor",
+      "description": "Sussex",
+      "storyIds": [
+        "the-musgrave-ritual"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=15"
+    },
+    {
+      "id": "shdb-location-13",
+      "name": "Kings Pyland",
+      "description": "Dartmoor, Devon",
+      "storyIds": [
+        "silver-blaze"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=13"
+    },
+    {
+      "id": "shdb-location-17",
+      "name": "Lachine",
+      "description": "Aldershot, Hampshire",
+      "storyIds": [
+        "the-crooked-man"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=17"
+    },
+    {
+      "id": "shdb-location-4",
+      "name": "Pondicherry Lodge",
+      "description": "London",
+      "storyIds": [
+        "the-sign-of-four"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=4"
+    },
+    {
+      "id": "shdb-location-20",
+      "name": "Priory School",
+      "description": "Near Mackleton, Derbyshire (?)",
+      "storyIds": [
+        "the-adventure-of-the-priory-school"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=20"
+    },
+    {
+      "id": "shdb-location-18",
+      "name": "Reichenbach Falls",
+      "description": "Switzerland",
+      "storyIds": [
+        "the-final-problem"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=18"
+    },
+    {
+      "id": "shdb-location-3",
+      "name": "Salt Lake City",
+      "description": "Utah",
+      "storyIds": [
+        "a-study-in-scarlet"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=3"
+    },
+    {
+      "id": "shdb-location-26",
+      "name": "Shoscombe Old Place",
+      "description": "",
+      "storyIds": [
+        "the-adventure-of-shoscombe-old-place"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=26"
+    },
+    {
+      "id": "shdb-location-9",
+      "name": "Stoke Moran",
+      "description": "Surrey",
+      "storyIds": [
+        "the-adventure-of-the-speckled-band"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=9"
+    },
+    {
+      "id": "shdb-location-8",
+      "name": "Swandam Lane opium den",
+      "description": "London",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=8"
+    },
+    {
+      "id": "shdb-location-7",
+      "name": "The Cedars",
+      "description": "Lee, Kent",
+      "storyIds": [
+        "the-man-with-the-twisted-lip"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=7"
+    },
+    {
+      "id": "shdb-location-12",
+      "name": "The Copper Beeches",
+      "description": "Near Winchester, Hampshire",
+      "storyIds": [
+        "the-adventure-of-the-copper-beeches"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=12"
+    },
+    {
+      "id": "shdb-location-24",
+      "name": "Tuxbury Old Park",
+      "description": "Near Bedford, Bedfordshire",
+      "storyIds": [
+        "the-adventure-of-the-blanched-soldier"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=24"
+    },
+    {
+      "id": "shdb-location-23",
+      "name": "Wisteria Lodge",
+      "description": "Esher, Surrey",
+      "storyIds": [
+        "the-adventure-of-wisteria-lodge"
+      ],
+      "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=23"
+    }
+  ]
+}
