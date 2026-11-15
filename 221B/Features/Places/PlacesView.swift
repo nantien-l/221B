@@ -15,24 +15,18 @@ struct PlacesView: View {
     private var places: [Location] {
         dataManager.locations.filter { searchText.isEmpty || $0.name.localizedCaseInsensitiveContains(searchText) || $0.description.localizedCaseInsensitiveContains(searchText) }
     }
+    private var visibleMarkers: [PlaceMapMarker] { mapMarkers.filter { marker in places.contains { $0.id == marker.location.id } } }
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 28) {
-                    header
-                    if let error = dataManager.loadError {
-                        ContentUnavailableView("Unable to Load Places", systemImage: "exclamationmark.triangle", description: Text(error))
-                    } else if places.isEmpty {
-                        ContentUnavailableView("No Places Found", systemImage: "map", description: Text("Try a different search."))
-                    } else {
-                        mapSection
-                        directory
-                    }
+            Group {
+                if let error = dataManager.loadError {
+                    ContentUnavailableView("Unable to Load Places", systemImage: "exclamationmark.triangle", description: Text(error))
+                } else if places.isEmpty {
+                    ContentUnavailableView("No Places Found", systemImage: "map", description: Text("Try a different search."))
+                } else {
+                    fullMap
                 }
-                .frame(maxWidth: 680, alignment: .leading)
-                .padding(.horizontal, 24).padding(.top, 32).padding(.bottom, 72)
-                .frame(maxWidth: .infinity)
             }
             .background(BookColors.background(for: colorScheme).ignoresSafeArea())
             .searchable(text: $searchText, prompt: "Search places")
@@ -45,72 +39,48 @@ struct PlacesView: View {
         }
     }
 
-    private var header: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text("THE BAKER STREET ARCHIVE")
-                .font(.system(.caption, design: .rounded, weight: .semibold)).tracking(1.6).foregroundStyle(accent)
-            Text("Places in the stories")
-                .font(.system(.largeTitle, design: .serif, weight: .semibold)).foregroundStyle(ink)
-                .fixedSize(horizontal: false, vertical: true).accessibilityAddTraits(.isHeader)
-            Text("Explore selected places connected to the cases. This index is not exhaustive.")
-                .font(.subheadline).foregroundStyle(muted).fixedSize(horizontal: false, vertical: true)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading).padding(24)
-        .background(paper, in: RoundedRectangle(cornerRadius: 14))
-        .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(accent.opacity(0.2)))
-    }
-
-    private var directory: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            HStack {
-                Text("PLACE DIRECTORY").font(.system(.caption, design: .rounded, weight: .semibold))
-                    .tracking(1.4).foregroundStyle(accent).accessibilityAddTraits(.isHeader)
-                Spacer()
-                Text("\(places.count) \(places.count == 1 ? "place" : "places")").font(.footnote).foregroundStyle(muted)
-            }
-            Link("Source: The Sherlock Holmes Database", destination: URL(string: "https://shdb.guidesite.co.uk/locations/locations-list")!)
-                .font(.footnote).foregroundStyle(accent)
-            LazyVStack(spacing: 0) {
-                ForEach(Array(places.enumerated()), id: \.element.id) { index, location in
-                    NavigationLink(value: location) {
-                        placeRow(location, showSeparator: index < places.count - 1)
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
-            .background(paper, in: RoundedRectangle(cornerRadius: 14))
-            .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(accent.opacity(0.16)))
-        }
-    }
-
-    private var mapSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .firstTextBaseline) {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("CASE MAP").font(.system(.caption, design: .rounded, weight: .semibold)).tracking(1.4).foregroundStyle(accent)
-                    Text("Britain and the cases").font(.system(.title2, design: .serif, weight: .semibold)).foregroundStyle(ink)
-                }
-                Spacer()
-                Text("\(mapMarkers.count) mapped").font(.footnote).foregroundStyle(muted)
-            }
-            Map(position: $mapPosition) {
-                ForEach(mapMarkers) { marker in
-                    Annotation(marker.location.name, coordinate: marker.coordinate) {
+    private var fullMap: some View {
+        Map(position: $mapPosition) {
+            ForEach(visibleMarkers) { marker in
+                Annotation(marker.location.name, coordinate: marker.coordinate) {
+                    NavigationLink(value: marker.location) {
                         Image(systemName: "mappin.circle.fill")
-                            .font(.title2).foregroundStyle(accent, paper)
-                            .shadow(color: .black.opacity(0.16), radius: 3, y: 2)
-                            .accessibilityLabel(marker.location.name)
+                            .font(.title)
+                            .foregroundStyle(accent, paper)
+                            .shadow(color: .black.opacity(0.20), radius: 4, y: 2)
                     }
+                    .accessibilityLabel(marker.location.name)
                 }
             }
-            .mapStyle(.standard(elevation: .flat, emphasis: .muted, pointsOfInterest: .including([]), showsTraffic: false))
-            .mapControls { MapCompass(); MapScaleView() }
-            .frame(height: 360)
-            .clipShape(RoundedRectangle(cornerRadius: 14))
-            .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(accent.opacity(0.24)))
-            Text("Markers are resolved by Apple Maps from the archive’s place names. Fictional or ambiguous locations may remain in the directory without a pin.")
-                .font(.footnote).foregroundStyle(muted).fixedSize(horizontal: false, vertical: true)
         }
+        .mapStyle(.standard(elevation: .flat, emphasis: .muted, pointsOfInterest: .including([]), showsTraffic: false))
+        .mapControls { MapCompass(); MapScaleView() }
+        .overlay(alignment: .topLeading) { mapHeader }
+        .overlay(alignment: .bottomLeading) { mapCaption }
+        .ignoresSafeArea(edges: .bottom)
+    }
+
+    private var mapHeader: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("THE HOLMES GAZETTEER")
+                .font(.caption.weight(.semibold)).tracking(1.5).foregroundStyle(accent)
+            Text("Britain, case by case")
+                .font(.title2.weight(.semibold)).foregroundStyle(ink)
+            Text("\(visibleMarkers.count) mapped landmarks")
+                .font(.footnote).foregroundStyle(muted)
+        }
+        .padding(18).padding(.top, 4)
+        .background(paper.opacity(0.94), in: RoundedRectangle(cornerRadius: 14))
+        .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(accent.opacity(0.2)))
+        .padding(20)
+    }
+
+    private var mapCaption: some View {
+        Text("Selected archive locations · Tap a marker to explore")
+            .font(.footnote).foregroundStyle(muted)
+            .padding(.horizontal, 14).padding(.vertical, 10)
+            .background(paper.opacity(0.92), in: Capsule())
+            .padding(20)
     }
 
     private func resolveMapMarkers() async {
@@ -133,27 +103,6 @@ struct PlacesView: View {
         }
         guard !Task.isCancelled else { return }
         mapMarkers = resolved
-    }
-
-    private func placeRow(_ location: Location, showSeparator: Bool) -> some View {
-        HStack(spacing: 16) {
-            Image(systemName: "mappin.and.ellipse").font(.system(size: 21, weight: .light)).foregroundStyle(accent)
-                .frame(width: 46, height: 46).background(accent.opacity(0.09), in: Circle()).accessibilityHidden(true)
-            VStack(alignment: .leading, spacing: 5) {
-                Text(location.name).font(.system(.headline, design: .serif)).foregroundStyle(ink)
-                    .fixedSize(horizontal: false, vertical: true)
-                if !location.description.isEmpty {
-                    Text(location.description).font(.footnote).foregroundStyle(muted)
-                }
-            }
-            Spacer(minLength: 4)
-            if location.isFavorite { Image(systemName: "star.fill").foregroundStyle(accent).accessibilityLabel("Favorite") }
-            Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(muted).accessibilityHidden(true)
-        }
-        .padding(.horizontal, 20).padding(.vertical, 16).contentShape(Rectangle())
-        .overlay(alignment: .bottom) {
-            if showSeparator { Rectangle().fill(accent.opacity(0.14)).frame(height: 1).padding(.leading, 82) }
-        }
     }
 }
 
