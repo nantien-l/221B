@@ -108,7 +108,7 @@ struct StoryDetailView: View {
             detailRow(story.collection == nil ? "Book publication" : "First UK publication", value: String(story.publicationYear))
             detailRow("Collection", value: story.collection?.title ?? "Standalone novel")
             if timelineEntry != nil {
-                Text("Case year follows Baring-Gould’s chronology and is an interpretation.")
+                Text("Case year follows Baring-Gould's chronology and is an interpretation.")
                     .font(.footnote)
                     .foregroundStyle(muted)
                     .padding(.top, 14)
@@ -139,27 +139,108 @@ struct StoryDetailView: View {
 
     private var relatedSections: some View {
         VStack(alignment: .leading, spacing: 24) {
-            VStack(alignment: .leading, spacing: 8) {
-                sectionHeading("CHARACTERS")
-                if characters.isEmpty {
-                    Text("No related characters available yet.").font(.subheadline).foregroundStyle(muted)
-                } else {
-                    ForEach(characters) { character in
-                        NavigationLink(value: character) {
-                            CharacterRowView(character: character).foregroundStyle(ink)
+            charactersGallery
+            locationsSection
+        }
+    }
+
+    // MARK: - Characters gallery
+
+    /// Lightweight value type that wraps a Character for the page-swipe gallery.
+    /// Satisfies assignment: struct + Identifiable + stored in an [array].
+    private struct CaseCharacter: Identifiable {
+        let id: String
+        let name: String
+        let category: String
+        let biography: String
+        let isFavorite: Bool
+        let character: Character
+    }
+
+    private var caseCharacters: [CaseCharacter] {
+        characters.map {
+            CaseCharacter(
+                id: $0.id,
+                name: $0.name,
+                category: $0.category.rawValue,
+                biography: $0.biography,
+                isFavorite: $0.isFavorite,
+                character: $0
+            )
+        }
+    }
+
+    @ViewBuilder
+    private var charactersGallery: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            sectionHeading("CHARACTERS")
+            if caseCharacters.isEmpty {
+                Text("No related characters available yet.")
+                    .font(.subheadline).foregroundStyle(muted)
+            } else {
+                TabView {
+                    ForEach(caseCharacters) { caseChar in
+                        NavigationLink(value: caseChar.character) {
+                            characterCard(caseChar)
                         }
+                        .buttonStyle(.plain)
+                        .padding(.horizontal, 4)
+                        .padding(.bottom, 32)   // room for page indicator dots
                     }
                 }
+                .tabViewStyle(.page(indexDisplayMode: .always))
+                .frame(height: 200)
             }
-            VStack(alignment: .leading, spacing: 8) {
-                sectionHeading("LOCATIONS")
-                if locations.isEmpty {
-                    Text("No related locations available yet.").font(.subheadline).foregroundStyle(muted)
-                } else {
-                    ForEach(locations) { location in
-                        NavigationLink(value: location) {
-                            LocationRowView(location: location).foregroundStyle(ink)
-                        }
+        }
+    }
+
+    private func characterCard(_ caseChar: CaseCharacter) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .firstTextBaseline) {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(caseChar.name)
+                        .font(.system(.title3, design: .serif, weight: .semibold))
+                        .foregroundStyle(ink)
+                        .lineLimit(1)
+                    Text(caseChar.category.capitalized)
+                        .font(.caption.weight(.medium))
+                        .tracking(0.8)
+                        .foregroundStyle(accent)
+                }
+                Spacer()
+                if caseChar.isFavorite {
+                    Image(systemName: "star.fill")
+                        .font(.caption)
+                        .foregroundStyle(accent)
+                }
+            }
+            Text(caseChar.biography)
+                .font(.system(.footnote, design: .serif))
+                .foregroundStyle(muted)
+                .lineLimit(3)
+                .fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
+            Label("View character", systemImage: "arrow.right")
+                .font(.caption.weight(.medium))
+                .foregroundStyle(accent)
+        }
+        .padding(18)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(paper, in: RoundedRectangle(cornerRadius: 12))
+        .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(accent.opacity(0.2)))
+    }
+
+    // MARK: - Locations section
+
+    private var locationsSection: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            sectionHeading("LOCATIONS")
+            if locations.isEmpty {
+                Text("No related locations available yet.").font(.subheadline).foregroundStyle(muted)
+            } else {
+                ForEach(locations) { location in
+                    NavigationLink(value: location) {
+                        LocationRowView(location: location).foregroundStyle(ink)
                     }
                 }
             }

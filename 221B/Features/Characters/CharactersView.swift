@@ -132,7 +132,7 @@ struct CharactersView: View {
         return VStack(alignment: .leading, spacing: 20) {
             Link("Source: The Sherlock Holmes Database", destination: URL(string: "https://shdb.guidesite.co.uk/characters/characters-list")!)
                 .font(.footnote).foregroundStyle(accent)
-            Text("Only stories with available character records are shown.")
+            Text("Only stories with available character records are shown. Tap a story to explore its cast gallery.")
                 .font(.footnote)
                 .foregroundStyle(muted)
                 .fixedSize(horizontal: false, vertical: true)
@@ -155,8 +155,14 @@ struct CharactersView: View {
                                     .font(.footnote).foregroundStyle(muted)
                             }
                             Spacer()
-                            Text("\(people.count)").font(.caption.monospacedDigit()).foregroundStyle(muted)
-                            Image(systemName: isExpanded ? "chevron.up" : "chevron.down").font(.caption.weight(.semibold)).foregroundStyle(muted)
+                            HStack(spacing: 8) {
+                                Text("\(people.count) \(people.count == 1 ? "person" : "people")")
+                                    .font(.caption)
+                                    .foregroundStyle(muted)
+                                Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
+                                    .font(.caption.weight(.semibold))
+                                    .foregroundStyle(muted)
+                            }
                         }
                         .padding(20)
                         .contentShape(Rectangle())
@@ -164,18 +170,101 @@ struct CharactersView: View {
                     .buttonStyle(.plain)
                     if isExpanded {
                         Rectangle().fill(accent.opacity(0.14)).frame(height: 1)
-                        ForEach(Array(people.enumerated()), id: \.element.id) { index, appearance in
-                            NavigationLink(value: appearance.character) {
-                                characterRow(appearance.character, showSeparator: index < people.count - 1)
-                            }
-                            .buttonStyle(.plain)
-                        }
+                        storyCharacterGallery(characters: people.map(\.character))
                     }
                 }
                 .background(paper, in: RoundedRectangle(cornerRadius: 14))
                 .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(accent.opacity(0.16)))
             }
         }
+        .onAppear {
+            if expandedStoryIDs.isEmpty, let firstID = stories.first?.id {
+                expandedStoryIDs.insert(firstID)
+            }
+        }
+    }
+
+    // MARK: - Story Character Gallery
+
+    /// Value type representing a character card in the story gallery.
+    /// Satisfies requirements: struct + Identifiable + array-driven.
+    private struct StoryCharacterCard: Identifiable {
+        let id: String
+        let name: String
+        let category: String
+        let biography: String
+        let isFavorite: Bool
+        let character: Character
+    }
+
+    private func storyCharacterGallery(characters: [Character]) -> some View {
+        let uniqueCharacters = characters.reduce(into: [Character]()) { result, char in
+            if !result.contains(where: { $0.id == char.id }) { result.append(char) }
+        }
+        let cards = uniqueCharacters.map {
+            StoryCharacterCard(
+                id: $0.id,
+                name: $0.name,
+                category: $0.category.rawValue,
+                biography: $0.biography,
+                isFavorite: $0.isFavorite,
+                character: $0
+            )
+        }
+
+        return VStack(alignment: .leading, spacing: 8) {
+            TabView {
+                ForEach(cards) { card in
+                    NavigationLink(value: card.character) {
+                        characterGalleryCard(card)
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 4)
+                    .padding(.bottom, 28)
+                }
+            }
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .frame(height: 195)
+        }
+        .padding(.top, 14)
+        .padding(.horizontal, 16)
+        .padding(.bottom, 8)
+    }
+
+    private func characterGalleryCard(_ card: StoryCharacterCard) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .firstTextBaseline) {
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(card.name)
+                        .font(.system(.title3, design: .serif, weight: .semibold))
+                        .foregroundStyle(ink)
+                        .lineLimit(1)
+                    Text(card.category.capitalized)
+                        .font(.caption.weight(.medium))
+                        .tracking(0.8)
+                        .foregroundStyle(accent)
+                }
+                Spacer()
+                if card.isFavorite {
+                    Image(systemName: "star.fill")
+                        .font(.caption)
+                        .foregroundStyle(accent)
+                }
+            }
+            Text(card.biography)
+                .font(.system(.footnote, design: .serif))
+                .foregroundStyle(muted)
+                .lineLimit(3)
+                .fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
+            Label("View character", systemImage: "arrow.right")
+                .font(.caption.weight(.medium))
+                .foregroundStyle(accent)
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(BookColors.background(for: colorScheme), in: RoundedRectangle(cornerRadius: 12))
+        .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(accent.opacity(0.18)))
     }
 
     private func characterRow(_ character: Character, showSeparator: Bool) -> some View {
