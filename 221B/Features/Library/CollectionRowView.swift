@@ -9,16 +9,18 @@ struct CollectionRowView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text(collection.title)
-                    .font(.headline)
+                    .font(.bookSection)
+                    .foregroundColor(.primary)
                 Text("Published: \(collection.year)")
-                    .font(.subheadline)
+                    .font(.bookMeta)
                     .foregroundColor(.secondary)
                 Text("\(collection.stories.count) stories")
-                    .font(.caption)
+                    .font(.bookCaption)
                     .foregroundColor(.secondary)
             }
             Spacer()
         }
-        .padding(.vertical, 4)
+        .padding(.vertical, 6)
+        .padding(.horizontal, 12)
     }
 }

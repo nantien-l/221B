@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CollectionsView: View {
     @Environment(DataManager.self) var dataManager
+    @Environment(\.colorScheme) private var colorScheme
 
     private var books: [(order: Int, novel: Story?, collection: Collection?)] {
         (dataManager.novels.compactMap { novel in
@@ -22,6 +23,10 @@ struct CollectionsView: View {
                     NavigationLink(value: collection) { CollectionRowView(collection: collection) }
                 }
             }
+            .listRowBackground(BookColors.background(for: colorScheme))
+            .listStyle(.plain)
+            .scrollContentBackground(.hidden)
+            .background(BookColors.background(for: colorScheme))
         }
     }
 }

@@ -1,0 +1,307 @@
+{
+  "title": "Case chronology based on William S. Baring-Gould",
+  "source": "https://www.dfw-sherlock.org/uploads/3/7/3/8/37380505/the_sherlock_holmes_canon_timeline_--_october_2013.pdf",
+  "note": "Years and order follow a Baring-Gould-based secondary chronology. Case dates are interpretations, not established facts. Only years are recorded; the source includes ranges and dates of varying precision.",
+  "entries": [
+    {
+      "storyId": "the-gloria-scott",
+      "year": 1874,
+      "order": 1
+    },
+    {
+      "storyId": "the-musgrave-ritual",
+      "year": 1879,
+      "order": 2
+    },
+    {
+      "storyId": "a-study-in-scarlet",
+      "year": 1881,
+      "order": 3
+    },
+    {
+      "storyId": "the-adventure-of-the-speckled-band",
+      "year": 1883,
+      "order": 4
+    },
+    {
+      "storyId": "the-resident-patient",
+      "year": 1886,
+      "order": 5
+    },
+    {
+      "storyId": "the-adventure-of-the-noble-bachelor",
+      "year": 1886,
+      "order": 6
+    },
+    {
+      "storyId": "the-adventure-of-the-second-stain",
+      "year": 1886,
+      "order": 7
+    },
+    {
+      "storyId": "the-reigate-squires",
+      "year": 1887,
+      "order": 8
+    },
+    {
+      "storyId": "a-scandal-in-bohemia",
+      "year": 1887,
+      "order": 9
+    },
+    {
+      "storyId": "the-man-with-the-twisted-lip",
+      "year": 1887,
+      "order": 10
+    },
+    {
+      "storyId": "the-five-orange-pips",
+      "year": 1887,
+      "order": 11
+    },
+    {
+      "storyId": "a-case-of-identity",
+      "year": 1887,
+      "order": 12
+    },
+    {
+      "storyId": "the-red-headed-league",
+      "year": 1887,
+      "order": 13
+    },
+    {
+      "storyId": "the-adventure-of-the-dying-detective",
+      "year": 1887,
+      "order": 14
+    },
+    {
+      "storyId": "the-adventure-of-the-blue-carbuncle",
+      "year": 1887,
+      "order": 15
+    },
+    {
+      "storyId": "the-valley-of-fear",
+      "year": 1888,
+      "order": 16
+    },
+    {
+      "storyId": "the-yellow-face",
+      "year": 1888,
+      "order": 17
+    },
+    {
+      "storyId": "the-greek-interpreter",
+      "year": 1888,
+      "order": 18
+    },
+    {
+      "storyId": "the-sign-of-four",
+      "year": 1888,
+      "order": 19
+    },
+    {
+      "storyId": "the-hound-of-the-baskervilles",
+      "year": 1888,
+      "order": 20
+    },
+    {
+      "storyId": "the-adventure-of-the-copper-beeches",
+      "year": 1889,
+      "order": 21
+    },
+    {
+      "storyId": "the-boscombe-valley-mystery",
+      "year": 1889,
+      "order": 22
+    },
+    {
+      "storyId": "the-stockbroker-s-clerk",
+      "year": 1889,
+      "order": 23
+    },
+    {
+      "storyId": "the-naval-treaty",
+      "year": 1889,
+      "order": 24
+    },
+    {
+      "storyId": "the-adventure-of-the-cardboard-box",
+      "year": 1889,
+      "order": 25
+    },
+    {
+      "storyId": "the-adventure-of-the-engineer-s-thumb",
+      "year": 1889,
+      "order": 26
+    },
+    {
+      "storyId": "the-crooked-man",
+      "year": 1889,
+      "order": 27
+    },
+    {
+      "storyId": "the-adventure-of-wisteria-lodge",
+      "year": 1890,
+      "order": 28
+    },
+    {
+      "storyId": "silver-blaze",
+      "year": 1890,
+      "order": 29
+    },
+    {
+      "storyId": "the-adventure-of-the-beryl-coronet",
+      "year": 1890,
+      "order": 30
+    },
+    {
+      "storyId": "the-final-problem",
+      "year": 1891,
+      "order": 31
+    },
+    {
+      "storyId": "the-adventure-of-the-empty-house",
+      "year": 1894,
+      "order": 32
+    },
+    {
+      "storyId": "the-adventure-of-the-golden-pince-nez",
+      "year": 1894,
+      "order": 33
+    },
+    {
+      "storyId": "the-adventure-of-the-three-students",
+      "year": 1895,
+      "order": 34
+    },
+    {
+      "storyId": "the-adventure-of-the-solitary-cyclist",
+      "year": 1895,
+      "order": 35
+    },
+    {
+      "storyId": "the-adventure-of-black-peter",
+      "year": 1895,
+      "order": 36
+    },
+    {
+      "storyId": "the-adventure-of-the-norwood-builder",
+      "year": 1895,
+      "order": 37
+    },
+    {
+      "storyId": "the-adventure-of-the-bruce-partington-plans",
+      "year": 1895,
+      "order": 38
+    },
+    {
+      "storyId": "the-adventure-of-the-veiled-lodger",
+      "year": 1896,
+      "order": 39
+    },
+    {
+      "storyId": "the-adventure-of-the-sussex-vampire",
+      "year": 1896,
+      "order": 40
+    },
+    {
+      "storyId": "the-adventure-of-the-missing-three-quarter",
+      "year": 1896,
+      "order": 41
+    },
+    {
+      "storyId": "the-adventure-of-the-abbey-grange",
+      "year": 1897,
+      "order": 42
+    },
+    {
+      "storyId": "the-adventure-of-the-devil-s-foot",
+      "year": 1897,
+      "order": 43
+    },
+    {
+      "storyId": "the-adventure-of-the-dancing-men",
+      "year": 1898,
+      "order": 44
+    },
+    {
+      "storyId": "the-adventure-of-the-retired-colourman",
+      "year": 1898,
+      "order": 45
+    },
+    {
+      "storyId": "the-adventure-of-charles-augustus-milverton",
+      "year": 1899,
+      "order": 46
+    },
+    {
+      "storyId": "the-adventure-of-the-six-napoleons",
+      "year": 1900,
+      "order": 47
+    },
+    {
+      "storyId": "the-problem-of-thor-bridge",
+      "year": 1900,
+      "order": 48
+    },
+    {
+      "storyId": "the-adventure-of-the-priory-school",
+      "year": 1901,
+      "order": 49
+    },
+    {
+      "storyId": "the-adventure-of-shoscombe-old-place",
+      "year": 1902,
+      "order": 50
+    },
+    {
+      "storyId": "the-adventure-of-the-three-garridebs",
+      "year": 1902,
+      "order": 51
+    },
+    {
+      "storyId": "the-disappearance-of-lady-frances-carfax",
+      "year": 1902,
+      "order": 52
+    },
+    {
+      "storyId": "the-adventure-of-the-illustrious-client",
+      "year": 1902,
+      "order": 53
+    },
+    {
+      "storyId": "the-adventure-of-the-red-circle",
+      "year": 1902,
+      "order": 54
+    },
+    {
+      "storyId": "the-adventure-of-the-blanched-soldier",
+      "year": 1903,
+      "order": 55
+    },
+    {
+      "storyId": "the-adventure-of-the-three-gables",
+      "year": 1903,
+      "order": 56
+    },
+    {
+      "storyId": "the-adventure-of-the-mazarin-stone",
+      "year": 1903,
+      "order": 57
+    },
+    {
+      "storyId": "the-adventure-of-the-creeping-man",
+      "year": 1903,
+      "order": 58
+    },
+    {
+      "storyId": "the-adventure-of-the-lion-s-mane",
+      "year": 1909,
+      "order": 59
+    },
+    {
+      "storyId": "his-last-bow",
+      "year": 1914,
+      "order": 60
+    }
+  ]
+}

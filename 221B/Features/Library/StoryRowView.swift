@@ -9,9 +9,10 @@ struct StoryRowView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text(story.title)
-                    .font(.headline)
+                    .font(.bookItem)
+                    .foregroundColor(.primary)
                 Text("\(story.collection?.title ?? "Novel") • \(story.publicationYear)")
-                    .font(.subheadline)
+                    .font(.bookMeta)
                     .foregroundColor(.secondary)
             }
             Spacer()
@@ -24,6 +25,7 @@ struct StoryRowView: View {
                     .foregroundColor(.blue)
             }
         }
-        .padding(.vertical, 4)
+        .padding(.vertical, 6)
+        .padding(.horizontal, 12)
     }
 }

@@ -12,6 +12,8 @@ class DataManager {
     var storyLocations: [StoryLocation] = []
     var chronologyEntries: [ChronologyEntry] = []
 
+    var caseTimeline: CaseTimeline?
+    var caseTimelineError: String?
     var novels: [Story] = []
     var loadError: String?
     private var hasLoaded = false
@@ -28,6 +30,13 @@ class DataManager {
             locations = legacy.locations
             appearances = legacy.appearances
             storyLocations = legacy.storyLocations
+            do {
+                caseTimeline = try CaseTimelineRepository().load(stories: stories)
+                caseTimelineError = nil
+            } catch {
+                caseTimeline = nil
+                caseTimelineError = error.localizedDescription
+            }
             chronologyEntries = stories.map { ChronologyEntry(story: $0, proposedDate: nil, source: "", notes: "") }
             for character in characters {
                 character.appearances = appearances.filter { $0.character.id == character.id }
