@@ -4,6 +4,7 @@ import Foundation
 
 struct ReadingProgressRowView: View {
     let story: Story
+    @Environment(DataManager.self) private var dataManager
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -19,12 +20,12 @@ struct ReadingProgressRowView: View {
 
             HStack {
                 Button("Mark Complete") {
-                    story.readingProgress = 1.0
+                    dataManager.updateReadingProgress(for: story, to: 1.0)
                 }
                 .buttonStyle(.bordered)
 
                 Button("Reset Progress") {
-                    story.readingProgress = 0.0
+                    dataManager.updateReadingProgress(for: story, to: 0.0)
                 }
                 .buttonStyle(.borderedProminent)
             }

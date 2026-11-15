@@ -28,6 +28,7 @@ private enum ReaderTheme: String, CaseIterable, Identifiable {
 
 struct StoryReaderView: View {
     let story: Story
+    @Environment(DataManager.self) private var dataManager
     @Environment(\.colorScheme) private var colorScheme
     @ScaledMetric(relativeTo: .body) private var textScale = 1.0
     @AppStorage("reader.fontSize") private var fontSize = 19.0
@@ -92,6 +93,8 @@ struct StoryReaderView: View {
             if let page = pages.first(where: { $0.id == pageID }) {
                 selectedChapterID = page.chapterID
             }
+            guard !pages.isEmpty else { return }
+            dataManager.updateReadingProgress(for: story, to: Double(pageID + 1) / Double(pages.count))
         }
         .background(colors.background.ignoresSafeArea())
         .navigationTitle(story.title)
@@ -152,6 +155,9 @@ struct StoryReaderView: View {
                     .filter { !$0.isEmpty }
                 chapters = ReaderChapter.make(from: paragraphs)
                 pages = ReaderPage.make(from: paragraphs, chapters: chapters)
+                if !pages.isEmpty, story.readingProgress == 0 {
+                    dataManager.updateReadingProgress(for: story, to: 1 / Double(pages.count))
+                }
                 sourceURL = repository.source(for: story.id)
             } catch {
                 errorMessage = error.localizedDescription
@@ -245,8 +251,11 @@ struct StoryReaderView: View {
             .foregroundStyle(colors.ink)
             .frame(maxWidth: 620, alignment: .leading)
             .padding(.horizontal, 28)
-            .padding(.top, 48)
-            .padding(.bottom, 90)
+            // Keep the text clear of the reader chrome and the page counter. The
+            // extra inset is especially important on iPadOS where the toolbar can
+            // overlap the hosted page during rotation.
+            .padding(.top, 64)
+            .padding(.bottom, 144)
             .frame(maxWidth: .infinity)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -298,7 +307,7 @@ struct StoryReaderView: View {
             .padding(.horizontal, 12)
             .padding(.vertical, 7)
             .background(theme.colors(for: colorScheme).background.opacity(0.9), in: Capsule())
-            .padding(.bottom, 12)
+            .padding(.bottom, 20)
             .allowsHitTesting(false)
     }
 

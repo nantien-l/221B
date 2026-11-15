@@ -1,6 +1,6 @@
 {
   "source": "https://shdb.guidesite.co.uk/locations/locations-list",
-  "note": "Selected locations and associations from The Sherlock Holmes Database. The source is not an exhaustive index; associations do not assign importance.",
+  "note": "Locations and story associations compiled from The Sherlock Holmes Database and the Sherlock Holmes Society of London Gazetteer. Fictional, contested, and broad regional settings are retained as named in the sources; map pins may therefore be approximate.",
   "locations": [
     {
       "id": "shdb-location-1",
@@ -282,6 +282,265 @@
         "the-adventure-of-wisteria-lodge"
       ],
       "source": "https://shdb.guidesite.co.uk/locations/locations-view?lcid=23"
+    },
+    {
+      "id": "shg-criterion-bar",
+      "name": "Criterion Bar",
+      "description": "Piccadilly Circus, London",
+      "storyIds": ["a-study-in-scarlet"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/a-study-in-scarlet/"
+    },
+    {
+      "id": "shg-serpentine-avenue",
+      "name": "Serpentine Avenue",
+      "description": "St John's Wood, London",
+      "storyIds": ["a-scandal-in-bohemia"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/scandal-in-bohemia/"
+    },
+    {
+      "id": "shg-saxe-coburg-square",
+      "name": "Saxe-Coburg Square",
+      "description": "City of London",
+      "storyIds": ["the-red-headed-league"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-red-headed-league/"
+    },
+    {
+      "id": "shg-st-bartholomews-hospital",
+      "name": "St Bartholomew's Hospital",
+      "description": "Smithfield, London",
+      "storyIds": ["a-study-in-scarlet"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/a-study-in-scarlet/"
+    },
+    {
+      "id": "shg-brixton-road",
+      "name": "Brixton Road",
+      "description": "Brixton, London",
+      "storyIds": ["a-study-in-scarlet"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/a-study-in-scarlet/"
+    },
+    {
+      "id": "shg-euston-station",
+      "name": "Euston Station",
+      "description": "London",
+      "storyIds": ["the-sign-of-four"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-sign-of-four"
+    },
+    {
+      "id": "shg-lyceum-theatre",
+      "name": "Lyceum Theatre",
+      "description": "Covent Garden, London",
+      "storyIds": ["the-sign-of-four"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-sign-of-four"
+    },
+    {
+      "id": "shg-millbank-prison",
+      "name": "Millbank Prison",
+      "description": "Westminster, London",
+      "storyIds": ["the-sign-of-four"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-sign-of-four"
+    },
+    {
+      "id": "shg-covent-garden-market",
+      "name": "Covent Garden Market",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-blue-carbuncle"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-blue-carbuncle/"
+    },
+    {
+      "id": "shg-kings-cross-station",
+      "name": "King's Cross Station",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-blue-carbuncle"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-blue-carbuncle/"
+    },
+    {
+      "id": "shg-upper-norwood",
+      "name": "Upper Norwood",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-norwood-builder"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-norwood-builder/"
+    },
+    {
+      "id": "shg-charing-cross-hotel",
+      "name": "Charing Cross Hotel",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-noble-bachelor", "the-disappearance-of-lady-frances-carfax"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-noble-bachelor/"
+    },
+    {
+      "id": "shg-horsham",
+      "name": "Horsham",
+      "description": "West Sussex",
+      "storyIds": ["the-adventure-of-the-dancing-men"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-dancing-men/"
+    },
+    {
+      "id": "shg-ridling-thorpe-manor",
+      "name": "Ridling Thorpe Manor",
+      "description": "Norfolk",
+      "storyIds": ["the-adventure-of-the-dancing-men"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-dancing-men/"
+    },
+    {
+      "id": "shg-farnham",
+      "name": "Farnham",
+      "description": "Surrey",
+      "storyIds": ["the-adventure-of-the-solitary-cyclist"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-solitary-cyclist/"
+    },
+    {
+      "id": "shg-charlington-hall",
+      "name": "Charlington Hall",
+      "description": "Near Farnham, Surrey",
+      "storyIds": ["the-adventure-of-the-solitary-cyclist"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-solitary-cyclist/"
+    },
+    {
+      "id": "shg-cambridge",
+      "name": "Cambridge",
+      "description": "Cambridgeshire",
+      "storyIds": ["the-adventure-of-the-three-students", "the-adventure-of-the-missing-three-quarter"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-three-students/"
+    },
+    {
+      "id": "shg-trinity-college",
+      "name": "Trinity College, Cambridge",
+      "description": "Cambridge",
+      "storyIds": ["the-adventure-of-the-three-students", "the-adventure-of-the-missing-three-quarter"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-three-students/"
+    },
+    {
+      "id": "shg-oxford",
+      "name": "Oxford",
+      "description": "Oxfordshire",
+      "storyIds": ["the-adventure-of-the-creeping-man"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-creeping-man/"
+    },
+    {
+      "id": "shg-woking",
+      "name": "Woking",
+      "description": "Surrey",
+      "storyIds": ["the-naval-treaty"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-naval-treaty/"
+    },
+    {
+      "id": "shg-briarbrae",
+      "name": "Briarbrae",
+      "description": "Near Woking, Surrey",
+      "storyIds": ["the-naval-treaty"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-naval-treaty/"
+    },
+    {
+      "id": "shg-woolwich-arsenal",
+      "name": "Woolwich Arsenal",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-bruce-partington-plans"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-bruce-partington-plans"
+    },
+    {
+      "id": "shg-chatham",
+      "name": "Chatham",
+      "description": "Kent",
+      "storyIds": ["the-adventure-of-the-bruce-partington-plans"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-bruce-partington-plans"
+    },
+    {
+      "id": "shg-aldgate",
+      "name": "Aldgate",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-six-napoleons"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-six-napoleons/"
+    },
+    {
+      "id": "shg-harrow",
+      "name": "Harrow",
+      "description": "London",
+      "storyIds": ["the-adventure-of-the-six-napoleons"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-six-napoleons/"
+    },
+    {
+      "id": "shg-yoxley-old-place",
+      "name": "Yoxley Old Place",
+      "description": "Suffolk",
+      "storyIds": ["the-adventure-of-the-golden-pince-nez"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-the-golden-pince-nez/"
+    },
+    {
+      "id": "shg-forest-row",
+      "name": "Forest Row",
+      "description": "East Sussex",
+      "storyIds": ["the-adventure-of-black-peter"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-black-peter/"
+    },
+    {
+      "id": "shg-marseilles",
+      "name": "Marseilles",
+      "description": "France",
+      "storyIds": ["the-adventure-of-black-peter"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-adventure-of-black-peter/"
+    },
+    {
+      "id": "shg-birmingham",
+      "name": "Birmingham",
+      "description": "West Midlands",
+      "storyIds": ["the-stockbroker-s-clerk"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-stock-brokers-clerk/"
+    },
+    {
+      "id": "shg-reading",
+      "name": "Reading",
+      "description": "Berkshire",
+      "storyIds": ["the-yellow-face"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-yellow-face/"
+    },
+    {
+      "id": "shg-norwich",
+      "name": "Norwich",
+      "description": "Norfolk",
+      "storyIds": ["the-gloria-scott"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-gloria-scott/"
+    },
+    {
+      "id": "shg-lausanne",
+      "name": "Lausanne",
+      "description": "Switzerland",
+      "storyIds": ["the-disappearance-of-lady-frances-carfax"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-disappearance-of-lady-frances-carfax/"
+    },
+    {
+      "id": "shg-montpellier",
+      "name": "Montpellier",
+      "description": "France",
+      "storyIds": ["the-disappearance-of-lady-frances-carfax"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-disappearance-of-lady-frances-carfax/"
+    },
+    {
+      "id": "shg-meiringen",
+      "name": "Meiringen",
+      "description": "Switzerland",
+      "storyIds": ["the-final-problem", "the-adventure-of-the-empty-house"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-final-problem/"
+    },
+    {
+      "id": "shg-brussels",
+      "name": "Brussels",
+      "description": "Belgium",
+      "storyIds": ["his-last-bow"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/his-last-bow/"
+    },
+    {
+      "id": "shg-harwich",
+      "name": "Harwich",
+      "description": "Essex",
+      "storyIds": ["his-last-bow"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/his-last-bow/"
+    },
+    {
+      "id": "shg-lyon",
+      "name": "Lyon",
+      "description": "France",
+      "storyIds": ["the-final-problem"],
+      "source": "https://gazetteer.sherlock-holmes.org.uk/places/the-final-problem/"
     }
   ]
 }

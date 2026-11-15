@@ -2,6 +2,7 @@ import SwiftUI
 
 struct LocationDetailView: View {
     let location: Location
+    @Environment(DataManager.self) private var dataManager
     @Environment(\.colorScheme) private var colorScheme
 
     private var ink: Color { colorScheme == .dark ? Color(red: 0.91, green: 0.89, blue: 0.83) : Color(red: 0.18, green: 0.20, blue: 0.17) }
@@ -40,6 +41,14 @@ struct LocationDetailView: View {
             if !location.description.isEmpty {
                 Text(location.description).font(.system(.subheadline, design: .serif)).foregroundStyle(muted).multilineTextAlignment(.center)
             }
+            Button { dataManager.toggleFavorite(for: location) } label: {
+                Label(location.isFavorite ? "Saved to favourites" : "Add to favourites", systemImage: location.isFavorite ? "star.fill" : "star")
+                    .font(.subheadline.weight(.medium))
+                    .foregroundStyle(location.isFavorite ? paper : accent)
+                    .padding(.horizontal, 15).padding(.vertical, 9)
+                    .background(location.isFavorite ? accent : accent.opacity(0.09), in: Capsule())
+            }
+            .buttonStyle(.plain)
             if location.id.hasPrefix("shdb-location-"),
                let source = URL(string: "https://shdb.guidesite.co.uk/locations/locations-view?lcid=\(location.id.dropFirst("shdb-location-".count))") {
                 Link("View source", destination: source).font(.footnote).foregroundStyle(accent).padding(.top, 4)

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CharacterDetailView: View {
     let character: Character
+    @Environment(DataManager.self) private var dataManager
     @Environment(\.colorScheme) private var colorScheme
 
     private var ink: Color { colorScheme == .dark ? Color(red: 0.91, green: 0.89, blue: 0.83) : Color(red: 0.18, green: 0.20, blue: 0.17) }
@@ -62,6 +63,15 @@ struct CharacterDetailView: View {
                 .padding(.horizontal, 12)
                 .padding(.vertical, 7)
                 .background(accent.opacity(0.09), in: Capsule())
+
+            Button { dataManager.toggleFavorite(for: character) } label: {
+                Label(character.isFavorite ? "Saved to favourites" : "Add to favourites", systemImage: character.isFavorite ? "star.fill" : "star")
+                    .font(.subheadline.weight(.medium))
+                    .foregroundStyle(character.isFavorite ? paper : accent)
+                    .padding(.horizontal, 15).padding(.vertical, 9)
+                    .background(character.isFavorite ? accent : accent.opacity(0.09), in: Capsule())
+            }
+            .buttonStyle(.plain)
 
             if !character.aliases.isEmpty {
                 VStack(spacing: 5) {

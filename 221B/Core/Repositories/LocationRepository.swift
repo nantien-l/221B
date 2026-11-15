@@ -23,7 +23,7 @@ struct LocationRepository {
         }
         let records = try JSONDecoder().decode(Index.self, from: Data(contentsOf: url)).locations
         let storyByID = Dictionary(uniqueKeysWithValues: stories.map { ($0.id, $0) })
-        guard records.count == 26, Set(records.map(\.id)).count == records.count,
+        guard records.count >= 26, Set(records.map(\.id)).count == records.count,
               records.allSatisfy({ !$0.name.isEmpty && !$0.storyIds.isEmpty && Set($0.storyIds).count == $0.storyIds.count && $0.storyIds.allSatisfy { storyByID[$0] != nil } }) else {
             throw CocoaError(.fileReadCorruptFile, userInfo: [NSLocalizedDescriptionKey: "Location index contains invalid records."])
         }

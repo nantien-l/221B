@@ -81,10 +81,10 @@ struct StoryDetailView: View {
             .padding(.top, 12)
 
             HStack(spacing: 12) {
-                Button { story.isFavorite.toggle() } label: {
+                Button { dataManager.toggleFavorite(for: story) } label: {
                     Label(story.isFavorite ? "Favorited" : "Favorite", systemImage: story.isFavorite ? "star.fill" : "star")
                 }
-                Button { story.isBookmarked.toggle() } label: {
+                Button { dataManager.toggleBookmark(for: story) } label: {
                     Label(story.isBookmarked ? "Bookmarked" : "Bookmark", systemImage: story.isBookmarked ? "bookmark.fill" : "bookmark")
                 }
             }
